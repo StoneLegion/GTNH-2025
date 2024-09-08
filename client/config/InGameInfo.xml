@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>$rYear $3</str>
+            <add>
+                <round>
+                    <div>
+                        <sub>
+                            <var>day</var>
+                            <modi>
+                                <var>day</var>
+                                <num>365</num>
+                            </modi>
+                        </sub>
+                        <num>365</num>
+                    </div>
+                    <num>0</num>
+                </round>
+                <num>1</num>
+            </add>
+            <str> $rDay $3</str>
+            <modi>
+                <var>day</var>
+                <num>365</num>
+            </modi>
+            <str>$f Time: </str>
+            <if>
+                <var>daytime</var>
+                <str>$e{mctime}</str>
+                <str>$7{mctime}</str>
+            </if>
+	    <if>
+		<var>raining</var>
+		<str>$f, $bRaining</str>
+	    </if>
+	    <if>
+		<var>thundering</var>
+		<str>$f, $bThundering</str>
+	    </if>
+        </line>
+        <line>
+            <str>Biome: $3{biome}$f</str>
+        </line>
+        <line>
+            <str>Temp: $6</str>
+            <round>
+                <div>
+                    <sub>
+                        <var>temperature</var>
+                        <num>32</num>
+                    </sub>
+                    <num>1.8</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>$6°C $6</str>
+
+            <str> $f Humidity: $6{humidity}%</str>
+        </line>
+        <line>
+            <str>Entities: $2{entitiesrendered}$f / $c{entitiestotal}$f</str>
+        </line>
+        <line>
+            <max>
+                <var>fps</var>
+                <num>30</num>
+                <str>$2</str>
+                <str>$c</str>
+            </max>
+            <var>fps</var>
+            <str>$f fps</str>
+            <if>
+                <and>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+                <concat>
+                    <str> - $aOre$f Chunk</str>
+                </concat>
+            </if>
+        </line>
+    </lines>
+</config>
