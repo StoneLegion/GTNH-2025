@@ -5,7 +5,7 @@
 Server IP: Internal IP
 Server Discord: https://discord.gg/kBTabCX
 Website With Help / More Info: https://stonelegion.com
-GregTech New Horizons Version: GTNH 2.7
+GregTech New Horizons Version: GTNH 2.7 Nightly 639
 
 ## Server Specs:
 This is the same server/specs as our GTNH 2021 Server.
