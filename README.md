@@ -1,5 +1,5 @@
 # GTNH-2024
- StoneLegion.Com GregTech 2025 Stone's Private Let's Play Series Server
+ StoneLegion.Com GregTech 2025 Friends and Family Server!
 
 ## Server Information:
 Server IP: Internal IP
