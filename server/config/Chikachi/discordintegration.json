@@ -1,29 +1,99 @@
 {
   "discord": {
-    "token": "",
+    "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "ignoresBots": true,
     "allowLinking": true,
     "ignoresUsers": [],
     "channels": {
       "generic": {
         "commandPrefix": "!",
-        "canExecuteCommands": false,
-        "stripMinecraftCodes": true,
-        "allowDMCommands": false,
+        "canExecuteCommands": true,
+        "stripMinecraftCodes": false,
+        "allowDMCommands": true,
         "relayChat": true,
         "messages": {
-          "chatMessage": "[{USER}] {MESSAGE}"
+          "chatMessage": "&b[{USER}]&f {MESSAGE}"
         },
-        "commands": []
+        "commands": [
+          {
+            "name": "stop",
+            "command": "stop",
+            "enabled": true,
+            "aliases": [
+              "close"
+            ],
+            "permissions": [
+              "user:93148033251811328",
+              "user:160188199426195456",
+            ]
+          }, {
+            "name": "tps",
+            "command": "discord tps",
+            "enabled": true
+          }, {
+            "name": "online",
+            "command": "discord online",
+            "enabled": true
+          }, {
+            "name": "list",
+            "command": "list",
+            "enabled": true
+          }, {
+            "name": "kick",
+            "command": "/kick {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "user:93148033251811328",
+              "user:160188199426195456",
+            ]
+          }, {
+            "name": "ban",
+            "command": "/ban {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "user:93148033251811328",
+              "user:160188199426195456",
+            ]
+          }, {
+            "name": "pardon",
+            "command": "/pardon {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "user:93148033251811328",
+              "user:160188199426195456",
+            ]
+          }, {
+            "name": "unban",
+            "command": "/unban {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "user:93148033251811328",
+              "user:160188199426195456",
+            ]
+          }, {
+            "name": "whitelist",
+            "command": "whitelist {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "user:93148033251811328",
+              "user:160188199426195456",
+            ]
+          }, {
+            "name": "tp",
+            "command": "tp {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "user:93148033251811328",
+              "user:160188199426195456",
+            ]
+          }
+
+        ]
       },
-      "channels": {}
-    },
-    "presence": {
-      "enabled": true,
-      "messages": {
-        "noPlayerOnline": "alone.",
-        "onePlayerOnline": "with {USER}.",
-        "morePlayersOnline": "with {COUNT} players."
+      "channels": { 
+        "1310451526610849822": { 
+          "webhook": "https://discord.com/api/webhooks/1310456400744284191/Ql0WrcWgxE5OhLza0crSeEYAxvMozndmfaP9ugBFYMtf-kEe6EuWnm7E7H_gIt1oLK06"
+        }
       }
     }
   },
@@ -36,17 +106,16 @@
         "canMentionEveryone": false,
         "canMentionHere": false,
         "messageIgnoreRegex": [],
-        "commandIgnoreRegex": [],
         "relayServerStart": true,
         "relayServerStop": true,
         "relayServerCrash": true,
         "chatPrefix": "",
         "canMentionUsers": true,
         "canMentionRoles": true,
-        "discordChannel": [],
+        "discordChannel": [1310451526610849822],
         "relayAchievements": true,
         "relayChat": true,
-        "relayCommands": true,
+        "relayCommands": false,
         "relayPlayerJoin": true,
         "relayPlayerLeave": true,
         "relayPlayerDeath": true,
@@ -77,7 +146,7 @@
           },
           "serverStart": "Server started!",
           "serverStop": "Server stopped!",
-          "serverCrash": "Server crash detected!"
+          "serverCrash": "Server crash detected! @StoneLegion @Electrobot"
         }
       },
       "dimensions": {}
