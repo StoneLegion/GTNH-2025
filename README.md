@@ -34,3 +34,13 @@ This is the same server/specs as our GTNH 2021 Server.
 
 You can find 100% of all changes: https://github.com/StoneLegion/GTNH-2025/commits/main/
 
+
+## Mods Removed:
+- lootgames-2.1.4.jar - Silly, Laggy, Makes Ugly World Gen
+- roguelike-1.6.0-GTNH.jar - Silly, More Laggy, Makes More Ugly World Gen
+
+## Mods Added: 
+- custom-nether-scale-1.7.10-1.0.jar - Let's us have a 1:1 Nether / Overworld
+- DiscordIntegrationUnoffical-mc1.7.10-3.1.1_3.8.3_464.jar - Links Discord to In Game
+- gtnh-web-map-0.3.28.jar - Dynmap for admins to spy on players, Not joking helps us monitor the server / players actions.
+- spark-1.10.19-forge1710.jar - Server admin performance tool
