@@ -24,7 +24,7 @@ recipes.remove(<StevesCarts:CartModule:49>);
 recipes.remove(<ore:oc:chunkloaderUpgrade>);
 
 //Remove RC World Anchor
-<Railcraft:machine.alpha>.addTooltip(format.red("Banned Item"));
+<Railcraft:machine.alpha>.addTooltip(format.red("Banned Item, Feel free to craft then destroy for Quest."));
 recipes.remove(<Railcraft:machine.alpha>);
 
 //Remove RC World Cart Anchor
