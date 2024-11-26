@@ -23,3 +23,14 @@ This is the same server/specs as our GTNH 2021 Server.
 - Do NOT be greedy with looting the World, World Generation, TPS, etc. This is a shared server of many not your private 1 person server.
 - Do NOT ask for items, blocks, land, etc. Even from old players.
 - Do NOT Build within 400 Blocks of a Player without Detailed Permissions from said player.
+
+## Summery of Changes:
+- Overworld Gen Above Changes: Removed Natura Clouds, Natura Redwood Trees and AE2 Meteors (Keeping the Surface Cleaner)
+- Overworld Gen Under Changes: Removed Caves, Mineshafts, Underground Lakes (Help reduce useless underground mob lag)
+- Removed LootGames & Rogue Dungeons (Pure Spam, Lag, and Beyond Ugly on the World.)
+- Angry Mobs: Removed Kamikaze Passive Animals & Angry Pigmen (What a silly mechanic that we never enjoyed)
+- No Bloodmoon (Hurts eyes, causes way too much lag, not really a challenge besides server CPU being taxed)
+- Nether to Overworld is now a 1:1 Scale (Promotes the usage of Overworld Travel and maybe even Railroad System! 
+
+You can find 100% of all changes: https://github.com/StoneLegion/GTNH-2025/commits/main/
+
