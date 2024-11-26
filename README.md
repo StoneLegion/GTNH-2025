@@ -16,3 +16,10 @@ This is the same server/specs as our GTNH 2021 Server.
 - PSU: Corsair RM850x Shift Fully Modular ATX Power Supply
 - Battery & Hardisk Backup Systems.
 
+## Server Rules:
+- Do NOT annoy Players & Admins.
+- Do NOT lag the server & disable automation and chunkloading when you go away for extended periods.
+- Do NOT cheat, exploit, steal, dupe, etc.
+- Do NOT be greedy with looting the World, World Generation, TPS, etc. This is a shared server of many not your private 1 person server.
+- Do NOT ask for items, blocks, land, etc. Even from old players.
+- Do NOT Build within 400 Blocks of a Player without Detailed Permissions from said player.
