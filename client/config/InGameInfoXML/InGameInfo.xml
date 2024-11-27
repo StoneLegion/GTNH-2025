@@ -56,7 +56,60 @@
             </round>
             <str>$6°C $6</str>
 
-            <str> $f Humidity: $6{humidity}%</str>
+            <str>$f Humidity: $6{humidity}%</str>
+            <str>$f Moon: </str>
+            <op>
+                <str>eq</str>
+                <modi>
+                    <var>day</var>
+                    <num>8</num>
+                </modi>
+                <num>0</num>
+                <num>1</num>
+                <num>2</num>
+                <num>3</num>
+                <num>4</num>
+                <num>5</num>
+                <num>6</num>
+                <num>7</num>
+                <str>{yellow} (1/4)</str>
+                <str>{yellow} (2/4)</str>
+                <str>{yellow} (3/4)</str>
+                <str>{yellow} (4/4)</str>
+                <str>{gray} (1/4)</str>
+                <str>{gray} (2/4)</str>
+                <str>{gray} (3/4)</str>
+                <str>{gray} (4/4)</str>
+            </op>
+        </line>
+       <line>
+            <str>Moon phase: </str>
+            <op>
+                <str>eq</str>
+                <modi>
+                    <var>day</var>
+                    <num>8</num>
+                </modi>
+                <num>0</num>
+                <num>1</num>
+                <num>2</num>
+                <num>3</num>
+                <num>4</num>
+                <num>5</num>
+                <num>6</num>
+                <num>7</num>
+                <str>{yellow}Full moon (1/4)</str>
+                <str>{yellow}Waning gibbous (2/4)</str>
+                <str>{yellow}Last quarter (3/4)</str>
+                <str>{yellow}Waning crescent (4/4)</str>
+                <str>{gray}New moon (1/4)</str>
+                <str>{gray}Waxing crescent (2/4)</str>
+                <str>{gray}First quarter (3/4)</str>
+                <str>{gray}Waxing gibbous (4/4)</str>
+            </op>
+        </line>
+        <line>
+            <str>Warp: P:$e{tcwarpperm}$f  S:$e{tcwarpsticky}$f  T:$e{tcwarptemp} $f ($e{tcwarptotal}$f)</str>
         </line>
         <line>
             <str>Entities: $2{entitiesrendered}$f / $c{entitiestotal}$f</str>
@@ -110,5 +163,5 @@
                 </concat>
             </if>
         </line>
-    </lines>
+	</lines>
 </config>
