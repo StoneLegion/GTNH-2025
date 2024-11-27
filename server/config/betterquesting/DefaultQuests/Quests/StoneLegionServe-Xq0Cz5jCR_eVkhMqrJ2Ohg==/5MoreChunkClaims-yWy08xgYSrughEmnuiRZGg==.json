@@ -1,12 +1,16 @@
 {
-  "questIDHigh:4": -2097501192721973052,
+  "questIDHigh:4": -3932569418426987845,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -4051268224039565475,
-      "questIDLow:4": -7011559974373004503
+      "questIDHigh:4": 0,
+      "questIDLow:4": 65
+    },
+    "1:10": {
+      "questIDHigh:4": 1148276909032489132,
+      "questIDLow:4": -5552910517672345852
     }
   },
-  "questIDLow:4": -7919328042602640058,
+  "questIDLow:4": -6880293345983964902,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,9 +19,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "HardcoreEnderExpansion:knowledge_note",
+        "id:8": "gregtech:gt.metaitem.01",
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 11305,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +29,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Server Specs",
+      "name:8": "5 More Chunk Claims!",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "- CPU: AMD Ryzen 9 7950X3D 5.7 GHz 16-Core Processor\n- MB: ASUS TUF Gaming X670E-PLUS WiFi 6E Socket AM5\n- RAM: CORSAIR VENGEANCE DDR5 RAM 128GB (4x32GB) 6400MHz\n- Main Disk: 2x WD_BLACK 4TB SN850X NVMe Gen4 PCIe, M.2 2280, Up to 7,300 MB/s (8TB Total)\n- PSU: Corsair RM850x Shift Fully Modular ATX Power Supply\n- Battery \u0026 Hardisk Backup Systems."
+      "desc:8": "Congratulations you have unlocked 5 more Chunk Claim. Continue to progress through the questbook to unlock your next claims."
     }
   },
   "tasks:9": {

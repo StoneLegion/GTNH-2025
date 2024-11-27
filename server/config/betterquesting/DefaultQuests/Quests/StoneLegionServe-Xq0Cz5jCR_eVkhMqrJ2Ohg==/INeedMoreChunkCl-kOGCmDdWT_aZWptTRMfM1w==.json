@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": -8006975072212987914,
+  "preRequisites:9": {},
+  "questIDLow:4": -7396428656064082729,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:sign",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "I Need More Chunk Claims!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "So you want to claim chunks eh? Well look no further, you have come to the right place!\n\nWe are using the Server Utilities aka FTB Utilities to claim chunks via the map looking icon in your Inventory Screen at the Top Left. \n\nTo Earn Chunk Claims you need to unlock portions of the Quest Book to get your first few claims.\n\nYour first chunk claim is when you make your very first bed you get 1 Chunk Claim. From there it continues to increase as you keep using the Quest Book and unlocking new ranks that give you ever more claims."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}
