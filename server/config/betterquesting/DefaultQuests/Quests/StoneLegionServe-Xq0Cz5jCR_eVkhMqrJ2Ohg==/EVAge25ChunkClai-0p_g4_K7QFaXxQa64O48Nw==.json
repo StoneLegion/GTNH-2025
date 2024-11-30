@@ -1,16 +1,16 @@
 {
-  "questIDHigh:4": 1148276909032489132,
+  "questIDHigh:4": -3269647534813134762,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 35
+      "questIDLow:4": 176
     },
     "1:10": {
-      "questIDHigh:4": -6651914636651049913,
-      "questIDLow:4": -6576072457191960162
+      "questIDHigh:4": 3181124799183668376,
+      "questIDLow:4": -5369671791163356901
     }
   },
-  "questIDLow:4": -5552910517672345852,
+  "questIDLow:4": -7510589403863040969,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,9 +19,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
+        "id:8": "dreamcraft:item.CircuitEV",
         "Count:3": 1,
-        "Damage:2": 11300,
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,18 +29,13 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "3 More Chunk Claims!",
+      "name:8": "EV Age + 25 Chunk Claim",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Congratulations you have unlocked 3 more Chunk Claim. Continue to progress through the questbook to unlock your next claims."
+      "desc:8": "No Description"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    }
-  },
+  "tasks:9": {},
   "rewards:9": {}
 }

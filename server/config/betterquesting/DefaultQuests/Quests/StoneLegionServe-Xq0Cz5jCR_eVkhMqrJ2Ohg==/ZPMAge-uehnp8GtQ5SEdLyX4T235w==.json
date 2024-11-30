@@ -1,16 +1,16 @@
 {
-  "questIDHigh:4": 5939457865875673059,
+  "questIDHigh:4": -5050673011889454188,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -3932569418426987845,
-      "questIDLow:4": -6880293345983964902
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2610
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 103
+      "questIDHigh:4": -320957059440621031,
+      "questIDLow:4": -7245799662083259952
     }
   },
-  "questIDLow:4": -8326572677387148405,
+  "questIDLow:4": -8902283202899626009,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,9 +19,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
+        "id:8": "dreamcraft:item.CircuitZPM",
         "Count:3": 1,
-        "Damage:2": 11019,
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,18 +29,13 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "16 More Chunk Claims!",
+      "name:8": "ZPM Age",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Congratulations you have unlocked 16 more Chunk Claim. Continue to progress through the questbook to unlock your next claims."
+      "desc:8": "No Description"
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    }
-  },
+  "tasks:9": {},
   "rewards:9": {}
 }

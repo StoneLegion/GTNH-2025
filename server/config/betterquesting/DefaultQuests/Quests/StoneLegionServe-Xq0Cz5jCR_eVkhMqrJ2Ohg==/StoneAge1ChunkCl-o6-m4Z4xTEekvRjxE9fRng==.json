@@ -1,16 +1,16 @@
 {
-  "questIDHigh:4": 3181124799183668376,
+  "questIDHigh:4": -6651914636651049913,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 5939457865875673059,
-      "questIDLow:4": -8326572677387148405
+      "questIDHigh:4": -8006975072212987914,
+      "questIDLow:4": -7396428656064082729
     },
     "1:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 753
+      "questIDLow:4": 13
     }
   },
-  "questIDLow:4": -5369671791163356901,
+  "questIDLow:4": -6576072457191960162,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,9 +19,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "gregtech:gt.metaitem.01",
+        "id:8": "minecraft:bed",
         "Count:3": 1,
-        "Damage:2": 11306,
+        "Damage:2": 0,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -29,18 +29,13 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "25 More Chunk Claims!",
+      "name:8": "Stone Age + 1 Chunk Claim",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Congratulations you have unlocked 25 more Chunk Claim. Continue to progress through the questbook to unlock your next claims."
+      "desc:8": "Congratulations you have unlocked your first Chunk Claim. Continue to progress through the questbook to unlock your next claims."
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    }
-  },
+  "tasks:9": {},
   "rewards:9": {}
 }

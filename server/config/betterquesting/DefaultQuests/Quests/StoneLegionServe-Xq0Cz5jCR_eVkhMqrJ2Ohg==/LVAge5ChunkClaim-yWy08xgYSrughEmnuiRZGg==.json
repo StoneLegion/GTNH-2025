@@ -1,16 +1,16 @@
 {
-  "questIDHigh:4": -6651914636651049913,
+  "questIDHigh:4": -3932569418426987845,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -8006975072212987914,
-      "questIDLow:4": -7396428656064082729
+      "questIDHigh:4": 0,
+      "questIDLow:4": 70
     },
     "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 13
+      "questIDHigh:4": 1148276909032489132,
+      "questIDLow:4": -5552910517672345852
     }
   },
-  "questIDLow:4": -6576072457191960162,
+  "questIDLow:4": -6880293345983964902,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -19,7 +19,7 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "minecraft:bed",
+        "id:8": "dreamcraft:item.CircuitLV",
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": ""
@@ -29,18 +29,13 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "Your First Chunk Claim!",
+      "name:8": "LV Age + 5 Chunk Claim",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Congratulations you have unlocked your first Chunk Claim. Continue to progress through the questbook to unlock your next claims."
+      "desc:8": "Congratulations you have unlocked 5 more Chunk Claim. Continue to progress through the questbook to unlock your next claims."
     }
   },
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    }
-  },
+  "tasks:9": {},
   "rewards:9": {}
 }
