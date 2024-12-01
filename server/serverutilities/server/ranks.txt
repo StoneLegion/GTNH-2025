@@ -1,9 +1,10 @@
 // For more info visit https://github.com/GTNewHorizons/ServerUtilities
 
-[player]
+[guest]
+priority: 1
 default_player_rank: true
 power: 1
-serverutilities.chat.name_format: <&b{name}&r>
+serverutilities.chat.name_format: <&7{name}&r>
 serverutilities.claims.max_chunks: 0
 serverutilities.chunkloader.max_chunks: 0
 serverutilities.homes.max: 0
@@ -11,7 +12,162 @@ serverutilities.homes.warmup: 5s
 serverutilities.homes.cooldown: 5s
 serverutilities.homes.cross_dim: false
 
+[stone]
+priority: 2
+power: 2
+serverutilities.chat.name_format: <&b{name}&r>
+serverutilities.claims.max_chunks: 1
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[steam]
+priority: 3
+power: 3
+serverutilities.chat.name_format: <[&9ST&r]&b {name}&r>
+serverutilities.claims.max_chunks: 4
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[lv]
+priority: 4
+power: 4
+serverutilities.chat.name_format: <[&9LV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 9
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[mv]
+priority: 5
+power: 5
+serverutilities.chat.name_format: <[&9MV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 25
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[hv]
+priority: 6
+power: 6
+serverutilities.chat.name_format: <[&9HV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 50
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[ev]
+priority: 7
+power: 7
+serverutilities.chat.name_format: <[&9EV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 75
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[iv]
+priority: 8
+power: 8
+serverutilities.chat.name_format: <[&9IV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 100
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[luv]
+priority: 9
+power: 9
+serverutilities.chat.name_format: <[&9LuV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 100
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[zpm]
+priority: 10
+power: 10
+serverutilities.chat.name_format: <[&9ZPM&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 100
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[uv]
+priority: 11
+power: 11
+serverutilities.chat.name_format: <[&9UV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 100
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[uhv]
+priority: 12
+power: 12
+serverutilities.chat.name_format: <[&9UHV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 100
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[uev]
+priority: 13
+power: 13
+serverutilities.chat.name_format: <[&9UEV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 100
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[uiv]
+priority: 14
+power: 14
+serverutilities.chat.name_format: <[&9UIV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 100
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
+[umv]
+priority: 15
+power: 15
+serverutilities.chat.name_format: <[&9UMV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 100
+serverutilities.chunkloader.max_chunks: 0
+serverutilities.homes.max: 0
+serverutilities.homes.warmup: 5s
+serverutilities.homes.cooldown: 5s
+serverutilities.homes.cross_dim: false
+
 [vip]
+priority: 16
 power: 20
 serverutilities.chat.name_format: <&a{name}&r>
 serverutilities.claims.max_chunks: 0
@@ -22,6 +178,7 @@ serverutilities.homes.cooldown: 1s
 serverutilities.homes.cross_dim: false
 
 [admin]
+priority: 17
 default_op_rank: true
 power: 100
 serverutilities.chat.name_format: <&4{name}&r>
