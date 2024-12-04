@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": 5207145528427627102,
+  "preRequisites:9": {},
+  "questIDLow:4": -9211694752104012672,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:tnt",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "BACKUPS!!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "On this server we §***ONLY** backup claimed chunks to improve server performance and to keep our backups FAR smaller. This is not to say that other chunks will disappear or get reverted to world gen state, **BUT** there is that chance so\n\n\n           §4**CLAIM YOUR IMPORTANT CHUNKS!!**§ §r\n\n             (and keep them claimed).\n\nAlso, the chunk protection system we use is quite good, but not foolproof. It is adviseable to not leave holes in your base that others can walk/run/jump/fly/teleport into (use solid blocks as walls preferably blocks without any special properties like the dissapearing blocks from Twilight Forest or ones that are 1 pixel too small). Also be aware that most if not all pressure plates are useable by ANYONE on claimed land as are elevators, travel anchors, leviators, minecarts, boats, probably \"some\" magic blocks. We also recommend that you do NOT leave entities outside your protected/enclosed area ESPECIALLY any rockets."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": 7677240217964858332,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8006975072212987914,
+      "questIDLow:4": -7396428656064082729
+    }
+  },
+  "questIDLow:4": -6616423917379692474,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Thaumcraft:ItemResource",
+        "Count:3": 1,
+        "Damage:2": 18,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§5Supporter: New Quest",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Are you enjoying your time on the server?\n\nWould you like to help contribute to the server and get a few perks for it?\n\nIf you donate $50 USD or more, then you will get the Purple Supporter rank. This grants you more a purple name in chat, some more chunk claims and the knowledge that you helped keep the server running by helping pay for the electricity costs, Internet bill and hardware upgrade/fix costs.\n\nThank you for supporting us."
+    }
+  },
+  "tasks:9": {},
+  "rewards:9": {}
+}

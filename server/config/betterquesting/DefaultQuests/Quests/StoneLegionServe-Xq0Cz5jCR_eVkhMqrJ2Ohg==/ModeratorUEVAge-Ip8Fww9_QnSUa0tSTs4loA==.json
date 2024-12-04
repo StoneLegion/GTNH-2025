@@ -1,0 +1,54 @@
+{
+  "questIDHigh:4": 2494719053923304052,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -500119114813848131,
+      "questIDLow:4": -7761791772852381416
+    },
+    "1:10": {
+      "questIDHigh:4": -7794674471479980302,
+      "questIDLow:4": -5399646287042766590
+    }
+  },
+  "questIDLow:4": -7752019516706642528,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.CircuitUEV",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 1200,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§aModerator: UEV Age",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Congratulations on reaching the UEV tier."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "hideCommand:1": 0,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
+      "index:3": 0,
+      "command:8": "/ranks add VAR_NAME uev"
+    }
+  }
+}

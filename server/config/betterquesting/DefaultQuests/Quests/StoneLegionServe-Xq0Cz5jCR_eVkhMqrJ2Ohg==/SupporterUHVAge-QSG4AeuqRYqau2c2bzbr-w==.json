@@ -1,0 +1,54 @@
+{
+  "questIDHigh:4": 4693234605085050250,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2324349161806672361,
+      "questIDLow:4": -7384198921154187544
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2616
+    }
+  },
+  "questIDLow:4": -7297125287731991557,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.CircuitUHV",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 1200,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6Supporter: UHV Age",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Congratulations on reaching the UHV tier."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "hideCommand:1": 0,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
+      "index:3": 0,
+      "command:8": "/ranks add VAR_NAME uhv"
+    }
+  }
+}

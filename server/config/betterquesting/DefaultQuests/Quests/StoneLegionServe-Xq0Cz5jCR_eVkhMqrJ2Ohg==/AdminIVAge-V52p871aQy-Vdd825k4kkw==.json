@@ -1,0 +1,54 @@
+{
+  "questIDHigh:4": 6313389116962259759,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 213
+    },
+    "1:10": {
+      "questIDHigh:4": 3021687031568354309,
+      "questIDLow:4": -6247368138043311058
+    }
+  },
+  "questIDLow:4": -7676984562898033517,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.CircuitIV",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 1200,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§4Admin: IV Age",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Congratulations on reaching the IV tier. You have unlocked 25 more Chunk Claims. Continue to progress through the questbook to unlock your next claims."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "hideCommand:1": 0,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
+      "index:3": 0,
+      "command:8": "/ranks add VAR_NAME iv"
+    }
+  }
+}
