@@ -67,6 +67,24 @@
       "desc:8": "Guess you got made a moderator \"somehow\". Sucks to be you? Maybe? Hehe. Maybe you\u0027ll enjoy your chat tier rank between all the crying and yelling..."
     }
   },
-  "tasks:9": {},
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gadomancy:ItemCreativeNode",
+          "Count:3": 80085,
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
   "rewards:9": {}
 }
