@@ -8,8 +8,8 @@ serverutilities.chat.name_format: <&7{name}&r>
 serverutilities.claims.max_chunks: 0
 serverutilities.chunkloader.max_chunks: 0
 serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
+serverutilities.homes.warmup: 10s
+serverutilities.homes.cooldown: 10s
 serverutilities.homes.cross_dim: false
 
 [stone]
@@ -17,170 +17,438 @@ priority: 2
 power: 2
 serverutilities.chat.name_format: <&b{name}&r>
 serverutilities.claims.max_chunks: 1
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [steam]
 priority: 3
 power: 3
 serverutilities.chat.name_format: <[&9ST&r]&b {name}&r>
 serverutilities.claims.max_chunks: 4
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [lv]
 priority: 4
 power: 4
 serverutilities.chat.name_format: <[&9LV&r]&b {name}&r>
 serverutilities.claims.max_chunks: 9
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [mv]
 priority: 5
 power: 5
 serverutilities.chat.name_format: <[&9MV&r]&b {name}&r>
 serverutilities.claims.max_chunks: 25
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [hv]
 priority: 6
 power: 6
 serverutilities.chat.name_format: <[&9HV&r]&b {name}&r>
 serverutilities.claims.max_chunks: 50
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [ev]
 priority: 7
 power: 7
 serverutilities.chat.name_format: <[&9EV&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 75
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [iv]
 priority: 8
 power: 8
 serverutilities.chat.name_format: <[&9IV&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [luv]
 priority: 9
 power: 9
 serverutilities.chat.name_format: <[&9LuV&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [zpm]
 priority: 10
 power: 10
 serverutilities.chat.name_format: <[&9ZPM&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [uv]
 priority: 11
 power: 11
 serverutilities.chat.name_format: <[&9UV&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [uhv]
 priority: 12
 power: 12
 serverutilities.chat.name_format: <[&9UHV&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [uev]
 priority: 13
 power: 13
 serverutilities.chat.name_format: <[&9UEV&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [uiv]
 priority: 14
 power: 14
 serverutilities.chat.name_format: <[&9UIV&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
 [umv]
 priority: 15
 power: 15
 serverutilities.chat.name_format: <[&9UMV&r]&3 {name}&r>
 serverutilities.claims.max_chunks: 100
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 5s
-serverutilities.homes.cooldown: 5s
-serverutilities.homes.cross_dim: false
 
-[vip]
-priority: 16
-power: 20
-serverutilities.chat.name_format: <&a{name}&r>
-serverutilities.claims.max_chunks: 0
-serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
-serverutilities.homes.warmup: 0s
-serverutilities.homes.cooldown: 1s
-serverutilities.homes.cross_dim: false
-
-[admin]
-priority: 17
-default_op_rank: true
+[s1_stone]
+priority: 100
 power: 100
+serverutilities.chat.name_format: <&5{name}&r>
+serverutilities.claims.max_chunks: 1
+
+[s1_steam]
+priority: 101
+power: 101
+serverutilities.chat.name_format: <[&5ST&r]&b {name}&r>
+serverutilities.claims.max_chunks: 25
+
+[s1_lv]
+priority: 102
+power: 102
+serverutilities.chat.name_format: <[&5LV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 50
+
+[s1_mv]
+priority: 103
+power: 103
+serverutilities.chat.name_format: <[&5MV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 100
+
+[s1_hv]
+priority: 104
+power: 104
+serverutilities.chat.name_format: <[&5HV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 150
+
+[s1_ev]
+priority: 105
+power: 105
+serverutilities.chat.name_format: <[&5EV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 200
+
+[s1_iv]
+priority: 106
+power: 106
+serverutilities.chat.name_format: <[&5IV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 250
+
+[s1_luv]
+priority: 107
+power: 107
+serverutilities.chat.name_format: <[&5LuV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 250
+
+[s1_zpm]
+priority: 108
+power: 108
+serverutilities.chat.name_format: <[&5ZPM&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 250
+
+[s1_uv]
+priority: 109
+power: 109
+serverutilities.chat.name_format: <[&5UV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 250
+
+[s1_uhv]
+priority: 110
+power: 110
+serverutilities.chat.name_format: <[&5UHV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 250
+
+[s1_uev]
+priority: 111
+power: 111
+serverutilities.chat.name_format: <[&5UEV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 250
+
+[s1_uiv]
+priority: 112
+power: 112
+serverutilities.chat.name_format: <[&5UIV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 250
+
+[s1_umv]
+priority: 113
+power: 113
+serverutilities.chat.name_format: <[&5UMV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 250
+
+[s2_stone]
+priority: 200
+power: 200
+serverutilities.chat.name_format: <&6{name}&r>
+serverutilities.claims.max_chunks: 1
+
+[s2_steam]
+priority: 201
+power: 201
+serverutilities.chat.name_format: <[&6ST&r]&b {name}&r>
+serverutilities.claims.max_chunks: 50
+
+[s2_lv]
+priority: 202
+power: 202
+serverutilities.chat.name_format: <[&6LV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 100
+
+[s2_mv]
+priority: 203
+power: 203
+serverutilities.chat.name_format: <[&6MV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 200
+
+[s2_hv]
+priority: 204
+power: 204
+serverutilities.chat.name_format: <[&6HV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 300
+
+[s2_ev]
+priority: 205
+power: 205
+serverutilities.chat.name_format: <[&6EV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 400
+
+[s2_iv]
+priority: 206
+power: 206
+serverutilities.chat.name_format: <[&6IV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[s2_luv]
+priority: 207
+power: 207
+serverutilities.chat.name_format: <[&6LuV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[s2_zpm]
+priority: 208
+power: 208
+serverutilities.chat.name_format: <[&6ZPM&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[s2_uv]
+priority: 209
+power: 209
+serverutilities.chat.name_format: <[&6UV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[s2_uhv]
+priority: 210
+power: 210
+serverutilities.chat.name_format: <[&6UHV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[s2_uev]
+priority: 211
+power: 211
+serverutilities.chat.name_format: <[&6UEV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[s2_uiv]
+priority: 212
+power: 212
+serverutilities.chat.name_format: <[&6UIV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[s2_umv]
+priority: 213
+power: 213
+serverutilities.chat.name_format: <[&6UMV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[m1_stone]
+priority: 300
+power: 300
+serverutilities.chat.name_format: <&a{name}&r>
+serverutilities.claims.max_chunks: 1
+
+[m1_steam]
+priority: 301
+power: 301
+serverutilities.chat.name_format: <[&aST&r]&b {name}&r>
+serverutilities.claims.max_chunks: 50
+
+[m1_lv]
+priority: 302
+power: 302
+serverutilities.chat.name_format: <[&aLV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 100
+
+[m1_mv]
+priority: 303
+power: 303
+serverutilities.chat.name_format: <[&aMV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 200
+
+[m1_hv]
+priority: 304
+power: 304
+serverutilities.chat.name_format: <[&aHV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 300
+
+[m1_ev]
+priority: 305
+power: 305
+serverutilities.chat.name_format: <[&aEV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 400
+
+[m1_iv]
+priority: 306
+power: 306
+serverutilities.chat.name_format: <[&aIV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[m1_luv]
+priority: 307
+power: 307
+serverutilities.chat.name_format: <[&aLuV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[m1_zpm]
+priority: 308
+power: 308
+serverutilities.chat.name_format: <[&aZPM&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[m1_uv]
+priority: 309
+power: 309
+serverutilities.chat.name_format: <[&aUV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[m1_uhv]
+priority: 310
+power: 310
+serverutilities.chat.name_format: <[&aUHV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[m1_uev]
+priority: 311
+power: 311
+serverutilities.chat.name_format: <[&aUEV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[m1_uiv]
+priority: 312
+power: 312
+serverutilities.chat.name_format: <[&aUIV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[m1_umv]
+priority: 313
+power: 313
+serverutilities.chat.name_format: <[&aUMV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 500
+
+[stone]
+priority: 400
+power: 400
+serverutilities.chat.name_format: <&4{name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_steam]
+priority: 401
+power: 401
+serverutilities.chat.name_format: <[&4ST&r]&b {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_lv]
+priority: 402
+power: 402
+serverutilities.chat.name_format: <[&4LV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_mv]
+priority: 403
+power: 403
+serverutilities.chat.name_format: <[&4MV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_hv]
+priority: 404
+power: 404
+serverutilities.chat.name_format: <[&4HV&r]&b {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_ev]
+priority: 405
+power: 405
+serverutilities.chat.name_format: <[&4EV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_iv]
+priority: 406
+power: 406
+serverutilities.chat.name_format: <[&4IV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_luv]
+priority: 407
+power: 407
+serverutilities.chat.name_format: <[&4LuV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_zpm]
+priority: 408
+power: 408
+serverutilities.chat.name_format: <[&4ZPM&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_uv]
+priority: 409
+power: 409
+serverutilities.chat.name_format: <[&4UV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_uhv]
+priority: 410
+power: 410
+serverutilities.chat.name_format: <[&4UHV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_uev]
+priority: 411
+power: 411
+serverutilities.chat.name_format: <[&4UEV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_uiv]
+priority: 412
+power: 412
+serverutilities.chat.name_format: <[&4UIV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[a1_umv]
+priority: 413
+power: 413
+serverutilities.chat.name_format: <[&4UMV&r]&3 {name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+
+[administrator]
+priority: 1000
+power: 1000
 serverutilities.chat.name_format: <&4{name}&r>
 serverutilities.claims.max_chunks: 10000
 serverutilities.chunkloader.max_chunks: 10000
