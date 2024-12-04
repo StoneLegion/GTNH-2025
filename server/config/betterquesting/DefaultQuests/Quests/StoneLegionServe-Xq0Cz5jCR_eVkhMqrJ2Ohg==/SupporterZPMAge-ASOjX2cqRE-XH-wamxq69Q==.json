@@ -48,7 +48,7 @@
       "rewardID:8": "bq_standard:command",
       "viaPlayer:1": 0,
       "index:3": 0,
-      "command:8": "/ranks add VAR_NAME zpm"
+      "command:8": "/ranks add VAR_NAME s2_zpm"
     }
   }
 }
