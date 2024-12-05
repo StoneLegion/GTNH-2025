@@ -2,8 +2,8 @@
   "questIDHigh:4": 8966555949112968559,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -2097501192721973052,
-      "questIDLow:4": -7919328042602640058
+      "questIDHigh:4": -4051268224039565475,
+      "questIDLow:4": -7011559974373004503
     }
   },
   "questIDLow:4": -7142329150296523750,
@@ -29,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "- Overworld Surface Changes: Removed Natura Clouds, Natura Redwood Trees and AE2 Meteors (Keeping the Surface Cleaner)\n- Overworld Underground Changes: Removed Caves, Mineshafts, Underground Lakes (Help reduce useless underground mob lag, \"rare\" lakes [use headphones with block volume on high to locate early game)\n- Removed Lootgames \u0026 Rogue Dungeons (Pure Spam, Lag, and Beyond Ugly on the World also only single use)\n- Angry Mobs: Removed Kamikaze Passive Animals \u0026 Angry Pigmen (What a silly mechanic that we never enjoyed)\n- No Bloodmoon (Hurts eyes, causes way too much lag, not really a challenge besides server CPU being taxed)\n- Nether to Overworld is now a 1:1 Scale (gives FAR more nether ore veins per player and promotes the usage of Overworld Travel and maybe even Railroad System! \n\nYou can find 100% of all changes: [url]https://github.com/StoneLegion/GTNH-2025/commits/main/[/url]"
+      "desc:8": "- Overworld Surface Changes: Removed Natura Clouds, Natura Redwood Trees and AE2 Meteors (Keeping the Surface Cleaner)\n- Overworld Underground Changes: Removed Caves, Mineshafts, Underground Lakes (Help reduce useless underground mob lag, \"rare\" lakes [use headphones with block volume on high to locate lava early game or ask your neighbours if they can spare some])\n- Removed Lootgames \u0026 Rogue Dungeons (Pure Spam, Lag, and Beyond Ugly on the World also only single use)\n- Angry Mobs: Removed Kamikaze Passive Animals \u0026 Angry Pigmen (What a silly mechanic that we never enjoyed)\n- No Bloodmoon (Hurts eyes, causes way too much lag, not really a challenge besides server CPU being taxed)\n- Nether to Overworld is now 1:1 Scale (gives FAR more nether ore veins per player and promotes the usage of Overworld Travel and maybe even Railroad System! \n- No sleep (makes it fair for all including vampires and hunters). Beds set respawn position (in case of death). Please don\u0027t nag people to Sleep.\n- World border at 8,000 away from spawn in Overworld, Nether and Twilight Forest\n\nYou can find 100% of all changes: [url]https://github.com/StoneLegion/GTNH-2025/commits/main/[/url]"
     }
   },
   "tasks:9": {

@@ -1,6 +1,11 @@
 {
   "questIDHigh:4": 5207145528427627102,
-  "preRequisites:9": {},
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7789760008845637236,
+      "questIDLow:4": -6460153356685222915
+    }
+  },
   "questIDLow:4": -9211694752104012672,
   "properties:10": {
     "betterquesting:10": {
@@ -24,7 +29,7 @@
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "On this server we §***ONLY** backup claimed chunks to improve server performance and to keep our backups FAR smaller. This is not to say that other chunks will disappear or get reverted to world gen state, **BUT** there is that chance so\n\n\n           §4**CLAIM YOUR IMPORTANT CHUNKS!!**§ §r\n\n             (and keep them claimed).\n\nAlso, the chunk protection system we use is quite good, but not foolproof. It is adviseable to not leave holes in your base that others can walk/run/jump/fly/teleport into (use solid blocks as walls preferably blocks without any special properties like the dissapearing blocks from Twilight Forest or ones that are 1 pixel too small). Also be aware that most if not all pressure plates are useable by ANYONE on claimed land as are elevators, travel anchors, leviators, minecarts, boats, probably \"some\" magic blocks. We also recommend that you do NOT leave entities outside your protected/enclosed area ESPECIALLY any rockets."
+      "desc:8": "On this server we §***ONLY** backup claimed chunks to improve server performance and to keep our backups FAR smaller. This is not to say that other chunks will disappear or get reverted to world gen state, **BUT** there is that chance so\n\n\n           §4**CLAIM YOUR IMPORTANT CHUNKS!!**§ §r\n\n                 (and keep them claimed).\n\nThe chunk protection system we use is quite good, but not foolproof. It is adviseable to not leave holes in your base that others can walk/run/jump/fly/teleport into (use solid blocks as walls preferably blocks without any special properties like the dissapearing blocks from Twilight Forest or ones that are 1 pixel too small). Also be aware that most if not all pressure plates are useable by ANYONE on claimed land as are elevators, travel anchors, leviators, minecarts, boats, probably \"some\" magic blocks. We also recommend that you do NOT leave entities outside your protected/enclosed area ESPECIALLY any rockets.\n\nExplosions are enabled in the world and also on claimed land."
     }
   },
   "tasks:9": {
