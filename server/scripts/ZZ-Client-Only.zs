@@ -38,3 +38,6 @@ recipes.remove(<ore:oc:droneCase1>);
 recipes.remove(<ore:oc:droneCase2>);
 <OpenComputers:item:91>.addTooltip(format.red("Banned Item"));
 recipes.remove(<OpenComputers:item:91>);
+
+//Banned Due to Major Server Crashes 12-05-2024
+<gregtech:gt.blockmachines:17000>.addTooltip(format.red("Banned Item"));
