@@ -44,7 +44,7 @@
   },
   "rewards:9": {
     "0:10": {
-      "hideCommand:1": 0,
+      "hideCommand:1": 1,
       "rewardID:8": "bq_standard:command",
       "viaPlayer:1": 0,
       "index:3": 0,

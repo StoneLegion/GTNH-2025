@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": 7677240217964858332,
+  "questIDHigh:4": -1436800528592975285,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -8006975072212987914,
-      "questIDLow:4": -7396428656064082729
+      "questIDHigh:4": -7789760008845637236,
+      "questIDLow:4": -6460153356685222915
     }
   },
-  "questIDLow:4": -6616423917379692474,
+  "questIDLow:4": -8597247924251334666,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "Thaumcraft:ItemResource",
+        "id:8": "Thaumcraft:ItemLootBag",
         "Count:3": 1,
-        "Damage:2": 18,
+        "Damage:2": 2,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "§5Supporter: New Quest",
+      "name:8": "Monthly Donation Reached",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Are you enjoying your time on the server?\n\nWould you like to help contribute to the server and get a few perks for it?\n\nIf you donate $50 USD or more, then you will get the Purple Supporter rank. This grants you a purple name in chat, some more chunk claims and the knowledge that you helped keep the server running by helping pay for the electricity costs, Internet bill and hardware upgrade/fix costs.\n\nYou also get access to the trashcan (icon in inventory) and /trash_can command. Yay?\n\nThank you for supporting us."
+      "desc:8": "When the monthly donation goal is reached, then this quest will be auto-completed and the reward quests will open up.\n\nThe monthly goal is set-up so that we can help Stone offset the monthly costs of running the server (electricity and Internet access). It is not used for lattes and vacations.\n\nFor more info visit the #gtnh-2025 channel on our Discord [url]https://discord.gg/kBTabCX[/url] and check the pinned message about Donations."
     }
   },
   "tasks:9": {
@@ -42,8 +42,8 @@
       "consume:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gadomancy:ItemCreativeNode",
-          "Count:3": 1337,
+          "id:8": "minecraft:fire",
+          "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""
         }
