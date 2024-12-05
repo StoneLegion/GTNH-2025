@@ -11,6 +11,39 @@ serverutilities.homes.max: 0
 serverutilities.homes.warmup: 10s
 serverutilities.homes.cooldown: 10s
 serverutilities.homes.cross_dim: false
+command.cofhcore.cofh: false
+command.dynmap.gwm: false
+command.dynmap.dynmapexp: false
+command.dynmap.dynmap: false
+command.dynmap.dmarker: false
+command.dynmap.dmap: false
+command.serverutilities.spawn: false
+command.serverutilities.back: false
+command.thaumicexploration.alterrate: false
+command.blocklimiter.blimit: false
+command.emt.emt_outputs: false
+command.galacticraftcore.gcenergyunits:false
+command.galacticraftcore.gchelp:false
+command.serverutilities.inv:false
+command.kubatech.kubatech:false
+command.mobsinfo.mobsinfo:false
+command.serverutilities.leaderboards:false
+command.morpheus.morpheus:false
+command.logisticspipes.logisticspipes:false
+command.serverutilities.nbtedit:false
+command.serverutilities.nick:false
+command.serverutilities.ranks:false
+command.rwg.rwg_buginfo:false
+command.endercore.scoreboardinfo:false
+command.stevesaddons.stevesaddons:false
+command.betterquesting.bq_user:false
+command.witchery.chant:false
+command.serverutilities.my_settings:false
+command.serverutilities.shutdown_time:false
+command.serverutilities.rec:false
+command.serverutilities.sethome:false
+command.serverutilities.home:false
+command.serverutilities.warp:false
 
 [stone]
 priority: 2
@@ -243,6 +276,16 @@ priority: 213
 power: 213
 serverutilities.chat.name_format: <[&9UMV&r]&6 {name}&r>
 
+[m1_]
+priority: 299
+power: 299
+serverutilities.chat.name_format: <&a{name}&r>
+serverutilities.claims.max_chunks: 0
+command.serverutilities.mute:true
+command.kick:true
+command.ban:true
+command.tp:true
+
 [m1_stone]
 priority: 300
 power: 300
@@ -320,12 +363,28 @@ priority: 313
 power: 313
 serverutilities.chat.name_format: <[&9UMV&r]&a {name}&r>
 
+[a1_]
+priority: 399
+power: 399
+serverutilities.chat.name_format: <&4{name}&r>
+serverutilities.claims.max_chunks: 9999
+serverutilities.chunkloader.max_chunks: 9999
+command.serverutilities.inv:true
+command.serverutilities.nick:true
+command.serverutilities.ranks:true
+command.pardon:true
+command.op:true
+command.deop:true
+command.serverutilities.reload:true
+command.serverutilities.ranks:true
+serverutilities.admin_panel.ranks.view:true
+serverutilities.display.admin_info:true
+
+
 [a1_stone]
 priority: 400
 power: 400
 serverutilities.chat.name_format: <&4{name}&r>
-serverutilities.claims.max_chunks: 9999
-serverutilities.chunkloader.max_chunks: 9999
 
 [a1_steam]
 priority: 401
