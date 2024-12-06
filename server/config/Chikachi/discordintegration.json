@@ -100,7 +100,7 @@
         ]
       },
       "channels": { 
-        "1310451526610849822": { 
+        "1314393965969014856": { 
           "webhook": ""
         }
       }
@@ -121,7 +121,7 @@
         "chatPrefix": "",
         "canMentionUsers": true,
         "canMentionRoles": true,
-        "discordChannel": [1310451526610849822],
+        "discordChannel": [1314393965969014856],
         "relayAchievements": true,
         "relayChat": true,
         "relayCommands": false,
