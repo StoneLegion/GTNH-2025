@@ -7,9 +7,9 @@ power: 1
 serverutilities.chat.name_format: <&7{name}&r>
 serverutilities.claims.max_chunks: 0
 serverutilities.chunkloader.max_chunks: 0
-serverutilities.homes.max: 0
+serverutilities.homes.max: 1
 serverutilities.homes.warmup: 10s
-serverutilities.homes.cooldown: 10s
+serverutilities.homes.cooldown: 1h
 serverutilities.homes.cross_dim: false
 command.cofhcore.cofh: false
 command.dynmap.gwm: false
@@ -17,7 +17,7 @@ command.dynmap.dynmapexp: false
 command.dynmap.dynmap: false
 command.dynmap.dmarker: false
 command.dynmap.dmap: false
-command.serverutilities.spawn: false
+command.serverutilities.spawn: true
 command.serverutilities.back: false
 command.thaumicexploration.alterrate: false
 command.blocklimiter.blimit: false
@@ -41,9 +41,15 @@ command.witchery.chant: false
 command.serverutilities.my_settings: false
 command.serverutilities.shutdown_time: false
 command.serverutilities.rec: false
-command.serverutilities.sethome: false
-command.serverutilities.home: false
+command.serverutilities.sethome: true
+command.serverutilities.home: true
 command.serverutilities.warp: false
+command.serverutilities.delhome: true
+serverutilities.spawn.cooldown: 1h
+serverutilities.spawn.warmup: 10s
+serverutilities.journeymap.enable: true
+serverutilities.journeymap.other: false
+serverutilities.chat.speak: true
 
 [stone]
 priority: 2
@@ -122,6 +128,11 @@ priority: 15
 power: 15
 serverutilities.chat.name_format: <[&9UMV&r]&3 {name}&r>
 
+[s1_]
+priority: 99
+power: 99
+serverutilities.chat.name_format: <&5{name}&r>
+
 [s1_stone]
 priority: 100
 power: 100
@@ -198,6 +209,11 @@ serverutilities.chat.name_format: <[&9UIV&r]&5 {name}&r>
 priority: 113
 power: 113
 serverutilities.chat.name_format: <[&9UMV&r]&5 {name}&r>
+
+[s2_]
+priority: 199
+power: 199
+serverutilities.chat.name_format: <&9{name}&r>
 
 [s2_stone]
 priority: 200
@@ -286,6 +302,8 @@ command.kick: true
 command.ban: true
 command.tp: true
 command.serverutilities.spawn: true
+serverutilities.journeymap.enable: true
+serverutilities.journeymap.other: true
 
 [m1_stone]
 priority: 300
@@ -380,6 +398,14 @@ command.deop: true
 command.serverutilities.reload: true
 serverutilities.admin_panel.ranks.view: true
 serverutilities.display.admin_info: true
+admin_panel.serverutilities: true
+admin_panel.serverutilitiesadmin_panel.serverutilities.crash_reports.delete: true
+admin_panel.serverutilities.crash_reports.view: true
+admin_panel.serverutilities.edit_world.gamerules: true
+command.morpheus.morpheus: true
+serverutilities.homes.warmup: 0s
+serverutilities.homes.cooldown: 0s
+serverutilities.homes.max: 100
 
 [a1_stone]
 priority: 400
@@ -461,4 +487,5 @@ serverutilities.claims.bypass_limits: true
 serverutilities.homes.max: 0
 serverutilities.homes.warmup: 0s
 serverutilities.homes.cooldown: 0s
-serverutilities.homes.cross_dim: false
+serverutilities.homes.cross_dim: true
+serverutilities.afk.timer: 12h
