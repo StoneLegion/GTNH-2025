@@ -1,4 +1,12 @@
 {
+	"stat.mineBlock.1": {
+		"name": "",
+		"reverse": false
+	},
+	"stat.useItem.66": {
+		"name": "",
+		"reverse": false
+	},
 	"stat.deaths": {
 		"name": "",
 		"reverse": false
