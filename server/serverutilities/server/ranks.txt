@@ -406,6 +406,9 @@ command.morpheus.morpheus: true
 serverutilities.homes.warmup: 0s
 serverutilities.homes.cooldown: 0s
 serverutilities.homes.max: 100
+serverutilities.spawn.cooldown: 0s
+serverutilities.spawn.warmup: 0s
+serverutilities.homes.cross_dim: true
 
 [a1_stone]
 priority: 400
