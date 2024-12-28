@@ -1,37 +1,37 @@
 {
-  "questIDHigh:4": -7789760008845637236,
-  "preRequisites:9": {},
   "questIDLow:4": -6460153356685222915,
-  "properties:10": {
-    "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
-      "icon:10": {
-        "id:8": "HardcoreEnderExpansion:knowledge_note",
-        "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": ""
-      },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Server Rules",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
-      "isSilent:1": 0,
-      "desc:8": "- Do NOT annoy Players \u0026 Admins.\n- Do NOT lag the server \u0026 DO disable automation and chunkloading when you go away for extended periods.\n- Do NOT cheat, exploit, steal, dupe, etc.\n- Do NOT be greedy with looting the World, World Generation, TPS, etc. This is a shared server with shared server resources (RAM/TPS) so do NOT treat it like your personal lag machine and let others enjoy their play as well.\n- Do NOT ask for items, blocks, land, etc. even from old players/plots.\n- Do NOT Build within 400 Blocks of another player without explicit permissions from said player.\nThis server does NOT have any babysitters so try to resolve issues amongst yourselves.\n\nFor any major issues, please post on our Discord server in the #gtnh-2025 channel.\n\nMost of all, have fun and enjoy your play here.\n"
-    }
-  },
+  "questIDHigh:4": -7789760008845637236,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
     }
   },
-  "rewards:9": {}
+  "preRequisites:9": {},
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "HardcoreEnderExpansion:knowledge_note",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "Server Rules",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "- Do NOT annoy Players \u0026 Admins.\n- Do NOT lag the server \u0026 DO disable automation and chunkloading when you go away for extended periods.\n- Do NOT cheat, exploit, steal, dupe, etc.\n- Do NOT be greedy with looting the World, World Generation, TPS, etc. This is a shared server with shared server resources (RAM/TPS) so do NOT treat it like your personal lag machine and let others enjoy their play as well.\n- Do NOT ask for items, blocks, land, etc. even from old players/plots.\n- Do NOT Build within 400 Blocks of another player without explicit permissions from said player.\nThis server does NOT have any babysitters so try to resolve issues amongst yourselves.\n\nFor any major issues, please post on our Discord server in the #gtnh-2025 channel.\n\nMost of all, have fun and enjoy your play here.\n"
+    }
+  }
 }

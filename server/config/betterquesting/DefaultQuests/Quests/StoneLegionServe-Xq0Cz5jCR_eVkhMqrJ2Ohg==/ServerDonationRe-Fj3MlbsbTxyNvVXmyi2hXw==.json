@@ -1,54 +1,54 @@
 {
+  "questIDLow:4": -8233330094040571553,
   "questIDHigh:4": 1602661985875087132,
-  "preRequisites:9": {
+  "tasks:9": {
     "0:10": {
-      "questIDHigh:4": -7789760008845637236,
-      "questIDLow:4": -6460153356685222915
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
     }
   },
-  "questIDLow:4": -8233330094040571553,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -6460153356685222915,
+      "questIDHigh:4": -7789760008845637236
+    }
+  },
+  "rewards:9": {},
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
       "icon:10": {
+        "Damage:2": 18,
         "id:8": "Thaumcraft:ItemResource",
+        "OreDict:8": "",
         "Count:3": 1,
         "tag:10": {
           "ench:9": {
             "0:10": {
-              "lvl:2": 1,
-              "id:2": 35
+              "id:2": 35,
+              "lvl:2": 1
             },
             "1:10": {
-              "lvl:2": 1,
-              "id:2": 21
+              "id:2": 21,
+              "lvl:2": 1
             }
           }
-        },
-        "Damage:2": 18,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Server Donation Rewards",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
       "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "Server Donation Rewards",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
       "desc:8": "We run the Stone Legion game servers out of Stonelegion\u0027s money \"pocket\" which is sometimes supplemented by donations. This money is only used for server electricity costs, the Internet bill (the server requires a higher level of service to send you the world data especially for bandwidth intensive games like Minecraft) and is also used to upgrade/update/fix any hardware required.\n\nNo fancy clothes/vacations from your donations.\n\nPlease don\u0027t donate if it will cause you financial hardship.\n\nWe also do NOT demand a donation to play on our server (we did in the past due to extraneous circumstances, but not now). If you can help Stone, then thank you.\n\nYou can donate any amount you wish to, but we offer personal rewards for a combined lifetime $50 USD donation (purple supporter rank and up to 250 chunk claims) and then another for combined lifetime $500 USD donation (gold supporter rank and up to 500 chunk claims). These 2 ranks grant you a purple/gold name in chat and grant you additional chunk claims on this server.\n\nWe also have monthly donation goals that if met will grant ALL players on the server some perks for the remainder of the month. These include:\n- access to the /home, /sethome, /delhome commands\n- access to the /spawn command\n- your player head\n- a free meal every 7 days\n- warp removal command every 7 days\n- and a delicious cake\n(Home \u0026 Warp Commands have a 60 Minute Cooldown)"
     }
-  },
-  "tasks:9": {
-    "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {}
+  }
 }

@@ -1,42 +1,42 @@
 {
-  "questIDHigh:4": -4051268224039565475,
-  "preRequisites:9": {
-    "0:10": {
-      "questIDHigh:4": -7789760008845637236,
-      "questIDLow:4": -6460153356685222915
-    }
-  },
   "questIDLow:4": -7011559974373004503,
-  "properties:10": {
-    "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
-      "icon:10": {
-        "id:8": "HardcoreEnderExpansion:knowledge_note",
-        "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": ""
-      },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Server Information",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
-      "isSilent:1": 0,
-      "desc:8": "- Server IP: mc.stonelegion.com:25565\n\n- Server Discord: [url]https://discord.gg/kBTabCX[/url] - Channel: [warn]#gtnh-2025[/warn]\n\n- Website With Help / More Info: [url]https://stonelegion.com[/url]\n\n- GregTech New Horizons Version: GTNH 2.7.0\n\nOn our server we use the following colours:\n- §4Red§s§r for Admin\n- §aGreen§r for Moderator\n- §6Gold§r for \"Super\" Supporter ($500 USD lifetime or more)\n- §dPurple§r for Supporter ($50 USD lifetime or more)\n- §bCyan§r for Player (crafted bed and claimed rank)\n- §7Grey§r for Newcomer\n\nDue to limitations of the Discord-MC chat bridge bot, everyone chatting from Discord will show up as §bcyan§r in game, but have the proper colour on Discord. Members can use the following commands from Discord:\n- !online (shows who\u0027s online)\n- !list (shows who\u0027s online in a different way)\n\nPlayers have access to a few non-mod related commands, but the important ones are:\n- /list (shows online players). You can also see this through TAB\n- /kickme (why would you do that?)\n- /home, /sethome, /delhome (if we reached the monthly donation goal this month)\n- /me MESSAGE (to express your current status)\n- /trash_can and trash icon in inv (for donators, others please recycle/trash responsibily)\n\nModerators/admins have access to:\n- whitelist command\n- mute/kick/ban\n\nAdmins can also use TP, but ONLY for major moderation duties."
-    }
-  },
+  "questIDHigh:4": -4051268224039565475,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
+      "taskID:8": "bq_standard:checkbox",
+      "index:3": 0
     }
   },
-  "rewards:9": {}
+  "preRequisites:9": {
+    "0:10": {
+      "questIDLow:4": -6460153356685222915,
+      "questIDHigh:4": -7789760008845637236
+    }
+  },
+  "rewards:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "visibility:8": "NORMAL",
+      "icon:10": {
+        "Damage:2": 0,
+        "id:8": "HardcoreEnderExpansion:knowledge_note",
+        "OreDict:8": "",
+        "Count:3": 1
+      },
+      "repeatTime:3": -1,
+      "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "Server Information",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
+      "desc:8": "- Server IP: mc.stonelegion.com:25565\n\n- Server Discord: [url]https://discord.gg/kBTabCX[/url] - Channel: [warn]#gtnh-2025[/warn]\n\n- Website With Help / More Info: [url]https://stonelegion.com[/url]\n\n- GregTech New Horizons Version: GTNH 2.7.0\n\nOn our server we use the following colours:\n- §4Red§s§r for Admin\n- §aGreen§r for Moderator\n- §6Gold§r for \"Super\" Supporter ($500 USD lifetime or more)\n- §dPurple§r for Supporter ($50 USD lifetime or more)\n- §bCyan§r for Player (crafted bed and claimed rank)\n- §7Grey§r for Newcomer\n\nDue to limitations of the Discord-MC chat bridge bot, everyone chatting from Discord will show up as §bcyan§r in game, but have the proper colour on Discord. Members can use the following commands from Discord:\n- !online (shows who\u0027s online)\n- !list (shows who\u0027s online in a different way)\n\nPlayers have access to a few non-mod related commands, but the important ones are:\n- /list (shows online players). You can also see this through TAB\n- /kickme (why would you do that?)\n- /home, /sethome, /delhome (if we reached the monthly donation goal this month)\n- /me MESSAGE (to express your current status)\n- /trash_can and trash icon in inv (for donators, others please recycle/trash responsibily)\n\nModerators/admins have access to:\n- whitelist command\n- mute/kick/ban\n\nAdmins can also use TP, but ONLY for major moderation duties."
+    }
+  }
 }

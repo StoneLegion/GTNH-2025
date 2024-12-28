@@ -1,55 +1,37 @@
 {
+  "questIDLow:4": -8597247924251334666,
   "questIDHigh:4": -1436800528592975285,
+  "tasks:9": {},
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": -7789760008845637236,
-      "questIDLow:4": -6460153356685222915
+      "questIDLow:4": -6460153356685222915,
+      "questIDHigh:4": -7789760008845637236
     }
   },
-  "questIDLow:4": -8597247924251334666,
+  "rewards:9": {},
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
       "visibility:8": "NORMAL",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "Thaumcraft:ItemLootBag",
-        "Count:3": 1,
         "Damage:2": 2,
-        "OreDict:8": ""
+        "id:8": "Thaumcraft:ItemLootBag",
+        "OreDict:8": "",
+        "Count:3": 1
       },
-      "snd_update:8": "random.levelup",
       "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "Monthly Donation Reached",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
       "isSilent:1": 0,
+      "questLogic:8": "AND",
+      "isMain:1": 0,
+      "lockedProgress:1": 0,
+      "repeat_relative:1": 1,
+      "snd_update:8": "random.levelup",
+      "name:8": "Monthly Donation Reached",
+      "snd_complete:8": "random.levelup",
+      "autoClaim:1": 0,
+      "taskLogic:8": "AND",
+      "simultaneous:1": 0,
+      "globalShare:1": 0,
       "desc:8": "When the monthly donation goal is reached, then this quest will be auto-completed and the reward quests will open up.\n\nThe monthly goal is set-up so that we can help Stone offset the monthly costs of running the server (electricity and Internet access). It is not used for lattes and vacations.\n\nFor more info visit the #gtnh-2025 channel on our Discord [url]https://discord.gg/kBTabCX[/url] and check the pinned message about Donations."
     }
-  },
-  "tasks:9": {
-    "0:10": {
-      "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
-      "index:3": 0,
-      "consume:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "id:8": "minecraft:fire",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    }
-  },
-  "rewards:9": {}
+  }
 }
