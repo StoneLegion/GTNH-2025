@@ -1,17 +1,17 @@
 local gates = {
     list = {
-		{"Moon", "592W-I20-IC"},
+		{"Moon", "2APP-UEL-M7"},
 		
-		{"Mars", "H922-O2O-FD"},
-		{"Phobos", "X91O-CY4-30"},
-		{"Deimos", "T92M-F34-3S"},
+		{"Mars", "CAPU-T94-CG"},
+		{"Phobos", "2AO9-99V-GU"},
+		{"Deimos", "0AO8-89W-XR"},
 		
-		{"Ceres", "FFWJ-B8K-EI"},
-		{"Asteroids", "T92M-F34-PU"},
-		{"Callisto", "BFQA-LFS-39"},
-		{"Ganymede", "NFQY-39Y-CG"},
-		{"Europa", "ZFP7-69W-44"},
-        {"Ross128b", "J92F-78B-XM"},
+		{"Ceres", "0APO-TFG-C0"},
+		{"Asteroids", "3FF2-BPI-21"},
+		{"Callisto", "MAVQ-J8D-P9"},
+		{"Ganymede", "QAO3-391-JT"},
+		{"Europa", "YAPQ-VEJ-1X"},
+        {"Ross128b", "2APP-UEL-9A"},
 		
 		{"Io", "1FIG-THV-0S"},
 		{"Venus", "FFB4-II8-WJ"},
