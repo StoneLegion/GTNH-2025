@@ -13,15 +13,15 @@ local gates = {
 		{"Europa", "YAPQ-VEJ-1X"},
         {"Ross128b", "2APP-UEL-9A"},
 		
-		{"Io", "1FIG-THV-0S"},
-		{"Venus", "FFB4-II8-WJ"},
-		{"Mercury", "DFB6-KI5-RD"},
+		{"Io", "U44U-FUU-T1"},
+		{"Venus", "EAOX-X97-MS"},
+		{"Mercury", "0APO-TFG-8N"},
 		
-		{"Oberon", "NFJS-4GC-FC"},
-		{"Miranda", "ZFJ7-CF8-Q3"},
-		{"Titan", "AAMF-HBX-4M"},
-		{"Enceladus", "MAGT-8ID-UZ"},
-		{"Ross128ba", "PFWR-J8B-V7"},
+		{"Oberon", "CAOT-U46-DG"},
+		{"Miranda", "EAOX-X97-T5"},
+		{"Titan", "YAPN-SFH-6G"},
+		{"Enceladus", "YAPQ-VEJ-XJ"},
+		{"Ross128ba", "2AP7-68X-H9"},
 		
 		{"Triton", "3FJ6-CA4-RB"},
 		{"Proteus", "FFIQ-3GK-1F"},
