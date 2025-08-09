@@ -1,0 +1,59 @@
+{
+  "questIDHigh:4": 2072588407888300320,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7789760008845637236,
+      "questIDLow:4": -6460153356685222915
+    }
+  },
+  "questIDLow:4": -7737780974588146409,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:iron_shovel",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Stonelegion Community Spleef Tournament",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Let\u0027s start a spleef league/tournament on this server.\n\nFor those not aware (haven\u0027t played it before), spleef is a game you play in an arena with shears while running over leaves (or shovels over snowblock) trying to get the other players to fall down to the layer below. It is played in your birthday suit (no armour/other tools/items/etc). No block placement is allowed. If snow is used, then we will need to make the shovels have silk touch (maybe GT amber or Tinkers, but all shovels need to be the same).\n\nMatches between players can happen anytime, but lets set the next one for Saturday 29th and Sunday 30th of March at 2:00PM EST. Future matches will be every 1-4 weeks depending on demand.\n\nIn the meantime, we will need players to build some arenas, so lets get ir done (or something). I\u0027ll update this when we know where the 1st match will take place."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gadomancy:ItemCreativeNode",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

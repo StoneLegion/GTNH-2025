@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 3807210826911141456,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7789760008845637236,
+      "questIDLow:4": -6460153356685222915
+    }
+  },
+  "questIDLow:4": -4616510150433499394,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "GalacticraftCore:item.spaceship",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "GTNH 2025 Community Rocket Launch",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The 1st community rocket launch was quite successful with 6/7 rockets landing safely!\nOne had RL tech issues.\n\nIf you missed this one (or were a part of it), then come join us at the next one.\n"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gadomancy:ItemCreativeNode",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "GalacticraftCore:item.cheeseCurd",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

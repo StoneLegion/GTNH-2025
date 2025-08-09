@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": -4268231235475913701,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7789760008845637236,
+      "questIDLow:4": -6460153356685222915
+    }
+  },
+  "questIDLow:4": -8699272888148986004,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:dragon_egg",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "GTNH 2025 Community First Dragon Fight",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "The community dragon fight (1st dragon) was on Sunday January 12, 2025 at 16:00 EST\n\nIt was quite a bloodbath, but ended with the dragon dead (by OP means, but only because it was OP AF and really shouldn\u0027t be and we did try to kill it).\n\nAll those who went to the End dimension within 24 hours were granted this neat dragon egg (limit of 1 per BQ team).\n\nThis quest was only available for the first dragon fight.\n\nJoin us for future community events (with potential rewards)."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gadomancy:ItemCreativeNode",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:dragon_egg",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

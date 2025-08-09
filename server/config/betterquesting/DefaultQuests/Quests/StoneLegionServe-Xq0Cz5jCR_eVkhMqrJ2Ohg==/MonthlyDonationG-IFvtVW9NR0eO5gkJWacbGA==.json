@@ -1,64 +1,64 @@
 {
-  "questIDLow:4": -8149816539916854504,
   "questIDHigh:4": 2331718183289702215,
-  "tasks:9": {
-    "0:10": {
-      "taskID:8": "bq_standard:checkbox",
-      "index:3": 0
-    }
-  },
   "preRequisites:9": {
     "0:10": {
-      "questIDLow:4": -8597247924251334666,
-      "questIDHigh:4": -1436800528592975285
+      "questIDHigh:4": -1436800528592975285,
+      "questIDLow:4": -8597247924251334666
+    }
+  },
+  "questIDLow:4": -8149816539916854504,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "WarpTheory:item.warptheory.paper",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 12096000,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Monthly Donation Goal Warp Removal",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "We have reached our monthly donation goal! YAY!\n\nHere\u0027s your free warp removal. This is repeatable every 7 days until the end of the month."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {
     "0:10": {
-      "command:8": "/thaumcraft warp VAR_NAME set 0 perm",
-      "viaPlayer:1": 0,
       "hideCommand:1": 1,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
       "index:3": 0,
-      "rewardID:8": "bq_standard:command"
+      "command:8": "/thaumcraft warp VAR_NAME set 0 perm"
     },
     "1:10": {
-      "command:8": "/thaumcraft warp VAR_NAME set 0 temp",
-      "viaPlayer:1": 0,
       "hideCommand:1": 1,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
       "index:3": 1,
-      "rewardID:8": "bq_standard:command"
+      "command:8": "/thaumcraft warp VAR_NAME set 0 temp"
     },
     "2:10": {
-      "command:8": "/thaumcraft warp VAR_NAME set 0",
-      "viaPlayer:1": 0,
       "hideCommand:1": 1,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
       "index:3": 2,
-      "rewardID:8": "bq_standard:command"
-    }
-  },
-  "properties:10": {
-    "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "icon:10": {
-        "Damage:2": 0,
-        "id:8": "WarpTheory:item.warptheory.paper",
-        "OreDict:8": "",
-        "Count:3": 1
-      },
-      "repeatTime:3": 12096000,
-      "isSilent:1": 0,
-      "questLogic:8": "AND",
-      "isMain:1": 0,
-      "lockedProgress:1": 0,
-      "repeat_relative:1": 1,
-      "snd_update:8": "random.levelup",
-      "name:8": "Monthly Donation Goal Warp Removal",
-      "snd_complete:8": "random.levelup",
-      "autoClaim:1": 0,
-      "taskLogic:8": "AND",
-      "simultaneous:1": 0,
-      "globalShare:1": 0,
-      "desc:8": "We have reached our monthly donation goal! YAY!\n\nHere\u0027s your free warp removal. This is repeatable every 7 days until the end of the month."
+      "command:8": "/thaumcraft warp VAR_NAME set 0"
     }
   }
 }

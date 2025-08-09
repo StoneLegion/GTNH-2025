@@ -1,18 +1,18 @@
 {
-  "questLineIDHigh:4": 6822112101180524535,
   "questLineIDLow:4": -7669046141452972410,
+  "questLineIDHigh:4": 6822112101180524535,
   "properties:10": {
     "betterquesting:10": {
       "visibility:8": "NORMAL",
       "icon:10": {
-        "Damage:2": 108,
         "id:8": "OpenComputers:item",
-        "OreDict:8": "",
-        "Count:3": 1
+        "Count:3": 1,
+        "Damage:2": 108,
+        "OreDict:8": ""
       },
+      "name:8": "Stone Legion Server",
       "bg_size:3": 256,
       "bg_image:8": "",
-      "name:8": "Stone Legion Server",
       "desc:8": "Ranking \u0026 More Land Claims"
     }
   }

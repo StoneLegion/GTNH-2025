@@ -1,0 +1,43 @@
+{
+  "questIDHigh:4": -2370091846491026446,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -4051268224039565475,
+      "questIDLow:4": -7011559974373004503
+    }
+  },
+  "questIDLow:4": -5204946899108692506,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "naturescompass:NaturesCompass",
+        "Count:3": 1,
+        "tag:10": {},
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Useful Locations",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Some useful locations on the server are listed below.\n\nFree food for beginners\nwill be added when players make free starter farms near spawn\n\nEnd Stronghold portals (only 3 cause this is 1.7.10)\n* 793, -463\n* -759, -418\n* 55, 791\n\nSpace Center Alpha (community launch site and the location of the long lost Stargate to other worlds which requires proof of tech progression by scanning rocket in inventory to use)\n* 294, 212\n\nTo find specific biomes (magical forest, tained land, etc.) you can use the Nature\u0027s Compass available in LV)."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

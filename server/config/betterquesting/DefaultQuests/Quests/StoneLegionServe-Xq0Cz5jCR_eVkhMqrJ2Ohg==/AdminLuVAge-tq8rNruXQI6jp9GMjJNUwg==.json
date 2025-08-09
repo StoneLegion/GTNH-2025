@@ -1,54 +1,54 @@
 {
-  "questIDLow:4": -6654119522832526142,
   "questIDHigh:4": -5282956323806822258,
-  "tasks:9": {
-    "0:10": {
-      "taskID:8": "bq_standard:checkbox",
-      "index:3": 0
-    }
-  },
   "preRequisites:9": {
     "0:10": {
-      "questIDLow:4": 1493,
-      "questIDHigh:4": 0
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1493
     },
     "1:10": {
-      "questIDLow:4": -7676984562898033517,
-      "questIDHigh:4": 6313389116962259759
+      "questIDHigh:4": 6313389116962259759,
+      "questIDLow:4": -7676984562898033517
+    }
+  },
+  "questIDLow:4": -6654119522832526142,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.CircuitLuV",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 1200,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§4Admin: LuV Age",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Congratulations on reaching the LuV tier."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {
     "0:10": {
-      "command:8": "/ranks add VAR_NAME a1_luv",
-      "viaPlayer:1": 0,
       "hideCommand:1": 1,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
       "index:3": 0,
-      "rewardID:8": "bq_standard:command"
-    }
-  },
-  "properties:10": {
-    "betterquesting:10": {
-      "visibility:8": "SECRET",
-      "icon:10": {
-        "Damage:2": 0,
-        "id:8": "dreamcraft:item.CircuitLuV",
-        "OreDict:8": "",
-        "Count:3": 1
-      },
-      "repeatTime:3": 1200,
-      "isSilent:1": 0,
-      "questLogic:8": "AND",
-      "isMain:1": 0,
-      "lockedProgress:1": 0,
-      "repeat_relative:1": 1,
-      "snd_update:8": "random.levelup",
-      "name:8": "§4Admin: LuV Age",
-      "snd_complete:8": "random.levelup",
-      "autoClaim:1": 0,
-      "taskLogic:8": "AND",
-      "simultaneous:1": 0,
-      "globalShare:1": 0,
-      "desc:8": "Congratulations on reaching the LuV tier."
+      "command:8": "/ranks add VAR_NAME a1_luv"
     }
   }
 }

@@ -1,42 +1,42 @@
 {
-  "questIDLow:4": -7396428656064082729,
   "questIDHigh:4": -8006975072212987914,
-  "tasks:9": {
-    "0:10": {
-      "taskID:8": "bq_standard:checkbox",
-      "index:3": 0
-    }
-  },
   "preRequisites:9": {
     "0:10": {
-      "questIDLow:4": -6460153356685222915,
-      "questIDHigh:4": -7789760008845637236
+      "questIDHigh:4": -7789760008845637236,
+      "questIDLow:4": -6460153356685222915
     }
   },
-  "rewards:9": {},
+  "questIDLow:4": -7396428656064082729,
   "properties:10": {
     "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "icon:10": {
-        "Damage:2": 0,
-        "id:8": "minecraft:sign",
-        "OreDict:8": "",
-        "Count:3": 1
-      },
-      "repeatTime:3": -1,
-      "isSilent:1": 0,
-      "questLogic:8": "AND",
-      "isMain:1": 0,
-      "lockedProgress:1": 0,
-      "repeat_relative:1": 1,
-      "snd_update:8": "random.levelup",
-      "name:8": "I Need More Chunk Claims!",
       "snd_complete:8": "random.levelup",
-      "autoClaim:1": 0,
       "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
       "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:sign",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
       "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "I Need More Chunk Claims!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
       "desc:8": "So you want to claim chunks eh? Well look no further, you have come to the right place!\n\nWe are using the Server Utilities aka FTB Utilities to claim chunks via the map looking icon in your Inventory Screen at the Top Left. \n\nTo Earn Chunk Claims you need to unlock portions of the Quest Book to get your first few claims.\n\nYour first chunk claim is granted when you complete the quest \"§SO...TIRED...MUST...SLEEP...\" in the \"And So it Begins\" tier.\n\nAdditional quests can be earned by completing further quests giving you more claims up to a total of 100. If you need/want more, then we do offer more up to 250/500 for the 2 donator purple/gold ranks. Also if you are on the same team (make **SURE** you trust them as they will have fulll access to your chunks and you to their\u0027s) as other players, then you combine the number of claimable chunks between each other.\n\nMake sure to check this Quest tab when you complete the primary quest for a new tier to get more chunk claims (up to IV) and to get your new chat progression prefix (any tier)."
     }
-  }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
 }

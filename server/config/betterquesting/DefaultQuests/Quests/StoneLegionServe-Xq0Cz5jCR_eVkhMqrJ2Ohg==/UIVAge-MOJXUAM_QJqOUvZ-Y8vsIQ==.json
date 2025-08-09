@@ -1,54 +1,54 @@
 {
-  "questIDLow:4": -8191213749532890079,
   "questIDHigh:4": 3522473859720626330,
-  "tasks:9": {
-    "0:10": {
-      "taskID:8": "bq_standard:checkbox",
-      "index:3": 0
-    }
-  },
   "preRequisites:9": {
     "0:10": {
-      "questIDLow:4": -5694412901591210156,
-      "questIDHigh:4": -4905166588837212996
+      "questIDHigh:4": -4905166588837212996,
+      "questIDLow:4": -5694412901591210156
     },
     "1:10": {
-      "questIDLow:4": -5485045902028225605,
-      "questIDHigh:4": -6286341533632019288
+      "questIDHigh:4": -6286341533632019288,
+      "questIDLow:4": -5485045902028225605
+    }
+  },
+  "questIDLow:4": -8191213749532890079,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "dreamcraft:item.CircuitUIV",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 1200,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§bUIV Age",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Congratulations on reaching the UIV tier."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {
     "0:10": {
-      "command:8": "/ranks add VAR_NAME uiv",
-      "viaPlayer:1": 0,
       "hideCommand:1": 1,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
       "index:3": 0,
-      "rewardID:8": "bq_standard:command"
-    }
-  },
-  "properties:10": {
-    "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "icon:10": {
-        "Damage:2": 0,
-        "id:8": "dreamcraft:item.CircuitUIV",
-        "OreDict:8": "",
-        "Count:3": 1
-      },
-      "repeatTime:3": 1200,
-      "isSilent:1": 0,
-      "questLogic:8": "AND",
-      "isMain:1": 0,
-      "lockedProgress:1": 0,
-      "repeat_relative:1": 1,
-      "snd_update:8": "random.levelup",
-      "name:8": "§bUIV Age",
-      "snd_complete:8": "random.levelup",
-      "autoClaim:1": 0,
-      "taskLogic:8": "AND",
-      "simultaneous:1": 0,
-      "globalShare:1": 0,
-      "desc:8": "Congratulations on reaching the UIV tier."
+      "command:8": "/ranks add VAR_NAME uiv"
     }
   }
 }

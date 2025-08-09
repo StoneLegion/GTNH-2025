@@ -1,0 +1,42 @@
+{
+  "questIDHigh:4": -2738276187681371264,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7789760008845637236,
+      "questIDLow:4": -6460153356685222915
+    }
+  },
+  "questIDLow:4": -8378201524419283819,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "OpenComputers:item",
+        "Count:3": 1,
+        "Damage:2": 108,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "You Have Too Many Servers, What Server is What?",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "StoneLegion is a community that mostly runs Minecraft Game Servers, but we do run other game servers as well from time to time.\n\nThis is what we offer for the GTNH community.\n\n[warn]GTNH 2025 (This Server):[/warn]\n- Server Launched near the end of 2024\n- Public Server, No Whitelist\n- No Wipe and continued support as long there are players.\n- Long Term Support \u0026 Continued Updates\n- IP: mc.stonelegion.com:25565\n\n[warn]GTNH 2026[/warn]\n- Server Launched near the end of 2025\n- Public Server, No Whitelist\n- No Wipe and continued support as long there are players.\n- Long Term Support \u0026 Continued Updates\n- IP: mc.stonelegion.com:25575\n\n[warn]GTNH: 2021:[/warn] \n- Server Launched sometime in 2021\n- Private Server now, to join you would need to donate at least $20 USD Directly for entry. (This is to protect the current community / progress)\n- No Wipe and continued support as long there are players.\n- Long Term Support \u0026 Continued Updates\n- IP: mc.stonelegion.com:2021"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

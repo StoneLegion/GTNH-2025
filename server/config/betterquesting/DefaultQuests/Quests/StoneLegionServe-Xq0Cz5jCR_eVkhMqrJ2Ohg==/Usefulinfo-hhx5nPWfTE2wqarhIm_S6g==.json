@@ -1,0 +1,37 @@
+{
+  "questIDHigh:4": -8783011458236593075,
+  "preRequisites:9": {},
+  "questIDLow:4": -5716850368048016662,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "Automagy:enchantedPaper",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Useful info",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Spawn is protected (from player build/destroy and mobs) around 200 blocks out.\n\nIf you die on a claimed chunk a grave will **NOT** spawn and you will have the vanilla default of 5 minutes (of chunks being loaded) to retrieve your items. Dying in the wilderness should spawn a grave, but in rare chances (near a TF Hydra\u0027s head as one example), the grave will not spawn/be destroyed. We have a \"zero refunds\" policy on this so will NOT be retrieving your grave/items for you.\n\nWe STRONGLY advise you do NOT run/jump unless absolutely necessary as this pack has food nerfs that can be quite hard if you waste your stamina/saturation and the little crappy food early game. At first you will have to collect Pam\u0027s Harvestcraft gardens and natura berry bushes that you should plant ASAP (even in a temp base) so you can get more crops and start making better early game food. It\u0027s also a good idea to start farming atleast a 9x9 of cotton early on as you will need quite a bit of cotton/string. Natura cotton is recommended since it yields more per harvest (you can craft Harvestcraft cotton into it if that\u0027s all you found).\n\nDo NOT try to tier skip (asking/offering items of higher tier to players that aren\u0027t at that tier). This includes magic items that someone could craft at their GT tier if they went down the magic route, but haven\u0027t (yet). The pack and everyone\u0027s play is better if everyone has the same (or as close to as possible) opportunities, challenges and rewards.\n\n\nMake sure to abide by the server rules and enjoy your time here."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {}
+}

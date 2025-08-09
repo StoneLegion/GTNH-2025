@@ -1,0 +1,84 @@
+{
+  "questIDHigh:4": -3717014124543914043,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7789760008845637236,
+      "questIDLow:4": -6460153356685222915
+    }
+  },
+  "questIDLow:4": -7546251698537752743,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "GalacticraftCore:item.spaceship",
+        "Count:3": 1,
+        "Damage:2": 2,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "3nd GTNH 2025 Community Rocket Launch",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Come join us for the next community rocket launch either as a participant or as a spectator at the Space Center Alpha complex. The event will take place on Sunday April 13th, 2025 at 16:00 EST. Check our Discord for more info.\n\nIf you want to launch with us (to the Moon or elsewhere), bring your rocket, fuel, fuel loader and launchpad to the Space Center. The Moon now has a starter base with free oxygen bubble and oxygen refill. Make sure to \"dress\" appropriately for your destination and bring enough oxygen and compressor/power for it as well as anything else you might need (food, mining tools, mining bags, etc.). We highly recommend launching in hazmat/nano hazmat since the pollution can get a little nasty (topped out at 22.8 million gibbl in the chunk where 4 tier 1 rockets launched).\n\nWe are in talks with a new vendor and refreshments will be provided this time (had scheduling issues last time). We advise spectators to refrain from going onto the launchpads afterwards as the pollution can get quite severe. We are not responsible for any health related effects. Also if you can, then please take \"lots of pictures\" to post in a thread in #minecraft-screenshots afterwards.\n\nHopefully we can make this be place players launch from going forwards (and pollute it to the high heavens...). \n\nSee you there"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "visible:1": 0,
+      "invert:1": 0,
+      "range:3": 20,
+      "index:3": 0,
+      "structure:8": "",
+      "hideInfo:1": 0,
+      "posX:3": 297,
+      "posY:3": 62,
+      "posZ:3": 212,
+      "biome:3": -1,
+      "name:8": "New Location",
+      "dimension:3": 0,
+      "taxiCabDist:1": 0,
+      "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gadomancy:ItemCreativeNode",
+          "Count:3": 1,
+          "Damage:2": 5,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "GalacticraftCore:item.basicItem",
+          "Count:3": 1,
+          "Damage:2": 15,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

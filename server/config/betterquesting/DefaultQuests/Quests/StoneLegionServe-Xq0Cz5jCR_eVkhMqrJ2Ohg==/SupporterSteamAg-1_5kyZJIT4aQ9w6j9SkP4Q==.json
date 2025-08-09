@@ -1,54 +1,54 @@
 {
-  "questIDLow:4": -8000910115644829727,
   "questIDHigh:4": -2882755894565122170,
-  "tasks:9": {
-    "0:10": {
-      "taskID:8": "bq_standard:checkbox",
-      "index:3": 0
-    }
-  },
   "preRequisites:9": {
     "0:10": {
-      "questIDLow:4": 40,
-      "questIDHigh:4": 0
+      "questIDHigh:4": 0,
+      "questIDLow:4": 40
     },
     "1:10": {
-      "questIDLow:4": -6953357559243412647,
-      "questIDHigh:4": -3693818077564943317
+      "questIDHigh:4": -3693818077564943317,
+      "questIDLow:4": -6953357559243412647
+    }
+  },
+  "questIDLow:4": -8000910115644829727,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metaitem.01",
+        "Count:3": 1,
+        "Damage:2": 11300,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": 1200,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "§6Supporter: Steam Age + 49 Chunk Claim",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Congratulations on reaching the Steam Age. You have unlocked 49 more Chunk Claims. Continue to progress through the questbook to unlock your next claims."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
     }
   },
   "rewards:9": {
     "0:10": {
-      "command:8": "/ranks add VAR_NAME s2_steam",
-      "viaPlayer:1": 0,
       "hideCommand:1": 1,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0,
       "index:3": 0,
-      "rewardID:8": "bq_standard:command"
-    }
-  },
-  "properties:10": {
-    "betterquesting:10": {
-      "visibility:8": "NORMAL",
-      "icon:10": {
-        "Damage:2": 11300,
-        "id:8": "gregtech:gt.metaitem.01",
-        "OreDict:8": "",
-        "Count:3": 1
-      },
-      "repeatTime:3": 1200,
-      "isSilent:1": 0,
-      "questLogic:8": "AND",
-      "isMain:1": 0,
-      "lockedProgress:1": 0,
-      "repeat_relative:1": 1,
-      "snd_update:8": "random.levelup",
-      "name:8": "§6Supporter: Steam Age + 49 Chunk Claim",
-      "snd_complete:8": "random.levelup",
-      "autoClaim:1": 0,
-      "taskLogic:8": "AND",
-      "simultaneous:1": 0,
-      "globalShare:1": 0,
-      "desc:8": "Congratulations on reaching the Steam Age. You have unlocked 49 more Chunk Claims. Continue to progress through the questbook to unlock your next claims."
+      "command:8": "/ranks add VAR_NAME s2_steam"
     }
   }
 }
