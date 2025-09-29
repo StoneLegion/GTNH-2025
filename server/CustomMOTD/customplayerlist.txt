@@ -1,0 +1,9 @@
+&6&k{radio}&r&f&l StoneLegion GTNH 2026 Server! &r&6&k{radio}&r
+&a==========================&r
+&7- &4&oDiscord: discord.gg/kBTabCX
+&7- &6&oWebsite: http://stonelegion.com
+&a==========================&r
+&l&oPlayers Online: {playercount}/{maxplayers}
+Current Time: {time}
+Current Weather: {weather}
+&2Minecraft Version: &d{mcversion}
