@@ -1,4 +1,16 @@
 {
+	"stat.walkOneCm": {
+		"name": "Walked in CM's",
+		"reverse": false
+	},
+	"stat.mineBlock.autogen.gregtech:gt.blockores": {
+		"name": "[Ores] Mined",
+		"reverse": false
+	},
+	"stat.mineBlock.autogen.miscutils:blockRainforestOakLog": {
+		"name": "Rainforest Oak Logs Lumbered",
+		"reverse": false
+	},
 	"stat.mineBlock.1": {
 		"name": "",
 		"reverse": false
