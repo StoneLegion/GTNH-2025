@@ -31,13 +31,7 @@ recipes.remove(<Railcraft:machine.alpha>);
 <Railcraft:cart.anchor>.addTooltip(format.red("Banned Item"));
 recipes.remove(<Railcraft:cart.anchor>);
 
-//Remove OC Drone's Temp Due to Exploit
-<ore:oc:droneCase1>.addTooltip(format.red("Banned Item"));
-recipes.remove(<ore:oc:droneCase1>);
-<ore:oc:droneCase2>.addTooltip(format.red("Banned Item"));
-recipes.remove(<ore:oc:droneCase2>);
-<OpenComputers:item:91>.addTooltip(format.red("Banned Item"));
-recipes.remove(<OpenComputers:item:91>);
-
 //Banned Due to Major Server Crashes 12-05-2024
 <gregtech:gt.blockmachines:17000>.addTooltip(format.red("Banned Item"));
+
+<EnderIO:blockFarmStation>.addTooltip(format.red("Please Consider Doing High Level Crops & Using Crop Manager For Server Performance"));
