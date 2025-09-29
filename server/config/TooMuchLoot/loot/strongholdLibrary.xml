@@ -6,8 +6,6 @@
     <loot item="minecraft:compass" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="minecraft:enchanted_book" damage="0" weight="2" count_min="1" count_max="5"/>
 	<loot item="minecraft:blaze_rod" damage="0" weight="5" count_min="1" count_max="3"/>
-    <loot item="MagicBees:frameOblivion" damage="0" weight="23" count_min="1" count_max="3"/>
-    <loot item="miscutils:frameVoid" damage="0" weight="23" count_min="1" count_max="3"/>
     <loot item="HardcoreEnderExpansion:adventurers_diary" damage="0" weight="8" count_min="1" count_max="1"/>
     <loot item="HardcoreEnderExpansion:temple_caller" damage="0" weight="1" count_min="1" count_max="1"/>
     <loot item="HardcoreEnderExpansion:knowledge_note" damage="0" nbt="{pts:40b}" weight="6" count_min="1" count_max="1"/>

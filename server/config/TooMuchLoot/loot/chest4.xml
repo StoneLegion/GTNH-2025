@@ -22,9 +22,6 @@
 	<loot item="minecraft:golden_apple" damage="1" weight="15" count_min="1" count_max="1"/>
 	<loot item="Forestry:alveary" damage="0" weight="20" count_min="2" count_max="3"/>
 	<loot item="ExtraUtilities:divisionSigil" damage="0" weight="15" count_min="1" count_max="1"/>
-	<loot item="MagicBees:frameOblivion" damage="0" weight="5" count_min="1" count_max="1"/>
-	<loot item="ExtraBees:hiveFrame.soul" damage="0" weight="10" count_min="1" count_max="1"/>
-	<loot item="Forestry:frameProven" damage="0" weight="15" count_min="2" count_max="3"/>	
 	<loot item="gregtech:gt.metaitem.01" damage="32729" weight="15" count_min="1" count_max="2"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32407" weight="15" count_min="1" count_max="2"/>
 	<loot item="gregtech:gt.metaitem.01" damage="32601" weight="5" count_min="1" count_max="1"/>

@@ -55,6 +55,5 @@
 	<loot item="gregtech:gt.metaitem.01" damage="32519" weight="20" count_min="1" count_max="1"/>
 	<loot item="gregtech:gt.blockmachines" damage="31066" weight="15" count_min="1" count_max="1"/>
 	<loot item="ExtraUtilities:spike_base_diamond" damage="0" weight="15" count_min="3" count_max="4"/>
-	<loot item="Forestry:frameImpregnated" damage="0" weight="15" count_min="3" count_max="3"/>
 
 </LootGroup>
