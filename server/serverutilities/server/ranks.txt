@@ -11,13 +11,15 @@ serverutilities.homes.max: 1
 serverutilities.homes.warmup: 10s
 serverutilities.homes.cooldown: 1h
 serverutilities.homes.cross_dim: false
+serverutilities.spawn.cooldown: 1h
+serverutilities.spawn.warmup: 10s
+serverutilities.spawn.cross_dim: false
 command.cofhcore.cofh: false
 command.dynmap.gwm: false
 command.dynmap.dynmapexp: false
 command.dynmap.dynmap: false
 command.dynmap.dmarker: false
 command.dynmap.dmap: false
-command.serverutilities.spawn: true
 command.serverutilities.back: false
 command.thaumicexploration.alterrate: false
 command.blocklimiter.blimit: false
@@ -41,15 +43,15 @@ command.witchery.chant: false
 command.serverutilities.my_settings: false
 command.serverutilities.shutdown_time: false
 command.serverutilities.rec: false
-command.serverutilities.sethome: true
-command.serverutilities.home: true
 command.serverutilities.warp: false
-command.serverutilities.delhome: true
-serverutilities.spawn.cooldown: 1h
-serverutilities.spawn.warmup: 10s
 serverutilities.journeymap.enable: true
 serverutilities.journeymap.other: false
 serverutilities.chat.speak: true
+command.serverutilities.delhome: true
+command.serverutilities.sethome: true
+command.serverutilities.home: true
+command.serverutilities.spawn: true
+command.forge.forge: true
 
 [stone]
 priority: 2
@@ -213,12 +215,12 @@ serverutilities.chat.name_format: <[&9UMV&r]&5 {name}&r>
 [s2_]
 priority: 199
 power: 199
-serverutilities.chat.name_format: <&9{name}&r>
+serverutilities.chat.name_format: <&6{name}&r>
 
 [s2_stone]
 priority: 200
 power: 200
-serverutilities.chat.name_format: <&9{name}&r>
+serverutilities.chat.name_format: <&6{name}&r>
 serverutilities.claims.max_chunks: 1
 
 [s2_steam]
@@ -298,6 +300,7 @@ power: 299
 serverutilities.chat.name_format: <&a{name}&r>
 serverutilities.claims.max_chunks: 0
 command.serverutilities.mute: true
+command.serverutilities.unmute: true
 command.kick: true
 command.ban: true
 command.tp: true
@@ -385,7 +388,7 @@ serverutilities.chat.name_format: <[&9UMV&r]&a {name}&r>
 [a1_]
 priority: 399
 power: 399
-serverutilities.chat.name_format: <&4{name}&r>
+serverutilities.chat.name_format: <&6{name}&r>
 serverutilities.claims.max_chunks: 9999
 serverutilities.chunkloader.max_chunks: 9999
 command.serverutilities.inv: true
@@ -409,76 +412,84 @@ serverutilities.homes.max: 100
 serverutilities.spawn.cooldown: 0s
 serverutilities.spawn.warmup: 0s
 serverutilities.homes.cross_dim: true
+serverutilities.spawn.cross_dim: true
+serverutilities.claims.bypass_limits: true
+command.serverutilities.warp: true
+command.serverutilities.delhome: true
+command.serverutilities.sethome: true
+command.serverutilities.home: true
+command.serverutilities.spawn: true
+command.gamemode: true
 
 [a1_stone]
 priority: 400
 power: 400
-serverutilities.chat.name_format: <&4{name}&r>
+serverutilities.chat.name_format: <&6{name}&r>
 
 [a1_steam]
 priority: 401
 power: 401
-serverutilities.chat.name_format: <[&9ST&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9ST&r]&6 {name}&r>
 
 [a1_lv]
 priority: 402
 power: 402
-serverutilities.chat.name_format: <[&9LV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9LV&r]&6 {name}&r>
 
 [a1_mv]
 priority: 403
 power: 403
-serverutilities.chat.name_format: <[&9MV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9MV&r]&6 {name}&r>
 
 [a1_hv]
 priority: 404
 power: 404
-serverutilities.chat.name_format: <[&9HV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9HV&r]&6 {name}&r>
 
 [a1_ev]
 priority: 405
 power: 405
-serverutilities.chat.name_format: <[&9EV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9EV&r]&6 {name}&r>
 
 [a1_iv]
 priority: 406
 power: 406
-serverutilities.chat.name_format: <[&9IV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9IV&r]&6 {name}&r>
 
 [a1_luv]
 priority: 407
 power: 407
-serverutilities.chat.name_format: <[&9LuV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9LuV&r]&6 {name}&r>
 
 [a1_zpm]
 priority: 408
 power: 408
-serverutilities.chat.name_format: <[&9ZPM&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9ZPM&r]&6 {name}&r>
 
 [a1_uv]
 priority: 409
 power: 409
-serverutilities.chat.name_format: <[&9UV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9UV&r]&6 {name}&r>
 
 [a1_uhv]
 priority: 410
 power: 410
-serverutilities.chat.name_format: <[&9UHV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9UHV&r]&6 {name}&r>
 
 [a1_uev]
 priority: 411
 power: 411
-serverutilities.chat.name_format: <[&9UEV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9UEV&r]&6 {name}&r>
 
 [a1_uiv]
 priority: 412
 power: 412
-serverutilities.chat.name_format: <[&9UIV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9UIV&r]&6 {name}&r>
 
 [a1_umv]
 priority: 413
 power: 413
-serverutilities.chat.name_format: <[&9UMV&r]&4 {name}&r>
+serverutilities.chat.name_format: <[&9UMV&r]&6 {name}&r>
 
 [administrator]
 priority: 1000
@@ -487,8 +498,16 @@ serverutilities.chat.name_format: <&4{name}&r>
 serverutilities.claims.max_chunks: 10000
 serverutilities.chunkloader.max_chunks: 10000
 serverutilities.claims.bypass_limits: true
-serverutilities.homes.max: 0
+serverutilities.homes.max: 100
 serverutilities.homes.warmup: 0s
 serverutilities.homes.cooldown: 0s
 serverutilities.homes.cross_dim: true
+serverutilities.spawn.cross_dim: true
 serverutilities.afk.timer: 12h
+command.cofhcore.cofh: true
+command.serverutilities.warp: true
+command.serverutilities.delhome: true
+command.serverutilities.sethome: true
+command.serverutilities.home: true
+command.serverutilities.spawn: true
+command.gamemode: true
