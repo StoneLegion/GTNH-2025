@@ -1,10 +1,5 @@
 {
-  "preRequisites:9": {
-    "0:10": {
-      "questIDHigh:4": -3044368443407513420,
-      "questIDLow:4": -5206244849169878638
-    }
-  },
+  "preRequisites:9": {},
   "properties:10": {
     "betterquesting:10": {
       "autoClaim:1": 0,
@@ -27,7 +22,7 @@
       "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
       "taskLogic:8": "OR",
-      "visibility:8": "SECRET"
+      "visibility:8": "NORMAL"
     }
   },
   "questIDHigh:4": -1188477060161453171,
