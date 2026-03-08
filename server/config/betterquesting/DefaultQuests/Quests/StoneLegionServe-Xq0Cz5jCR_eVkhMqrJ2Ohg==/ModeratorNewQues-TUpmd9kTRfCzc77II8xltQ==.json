@@ -1,90 +1,90 @@
 {
-  "questIDHigh:4": 5569376554126099952,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": -8006975072212987914,
       "questIDLow:4": -7396428656064082729
     }
   },
-  "questIDLow:4": -5515855351795391051,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "SECRET",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Guess you got made a moderator \"somehow\". Sucks to be you? Maybe? Hehe. Maybe you\u0027ll enjoy your chat tier rank between all the crying and yelling...",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "TConstruct:hammer",
         "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "TConstruct:hammer",
         "tag:10": {
           "InfiTool:10": {
-            "RenderExtra:3": 0,
-            "BaseDurability:3": 342,
-            "BaseAttack:3": 3,
-            "ToolEXP:4": 0,
-            "Built:1": 1,
-            "HarvestLevel:3": 0,
-            "HarvestLevelExtra:3": 0,
-            "ModDurability:5": 0.0,
-            "RenderHead:3": 0,
-            "MiningSpeedExtra:3": 150,
-            "Shoddy:5": 0.0,
-            "RenderHandle:3": 0,
             "Accessory:3": 0,
-            "MiningSpeed:3": 150,
-            "Unbreaking:3": 0,
-            "Damage:3": 0,
-            "HarvestLevel2:3": 0,
-            "BonusDurability:3": 0,
-            "TotalDurability:3": 342,
-            "MiningSpeed2:3": 150,
-            "Head:3": 0,
             "Attack:3": 3,
+            "BaseAttack:3": 3,
+            "BaseDurability:3": 342,
+            "BonusDurability:3": 0,
             "Broken:1": 0,
-            "Handle:3": 0,
+            "Built:1": 1,
+            "Damage:3": 0,
             "Extra:3": 0,
+            "Handle:3": 0,
+            "HarvestLevel:3": 0,
+            "HarvestLevel2:3": 0,
+            "HarvestLevelExtra:3": 0,
+            "Head:3": 0,
+            "MiningSpeed:3": 150,
+            "MiningSpeed2:3": 150,
+            "MiningSpeedExtra:3": 150,
+            "ModDurability:5": 0.0,
+            "Modifiers:3": 0,
             "RenderAccessory:3": 0,
+            "RenderExtra:3": 0,
+            "RenderHandle:3": 0,
+            "RenderHead:3": 0,
+            "Shoddy:5": 0.0,
+            "ToolEXP:4": 0,
             "ToolLevel:3": 1,
-            "Modifiers:3": 0
+            "TotalDurability:3": 342,
+            "Unbreaking:3": 0
           },
           "display:10": {
             "Name:8": "§fWooden Hammer"
           }
-        },
-        "Damage:2": 0,
-        "OreDict:8": ""
+        }
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": -1,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§aModerator: New Quest",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Guess you got made a moderator \"somehow\". Sucks to be you? Maybe? Hehe. Maybe you\u0027ll enjoy your chat tier rank between all the crying and yelling..."
+      "lockedProgress:1": 0,
+      "name:8": "§aModerator: New Quest",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
     }
   },
+  "questIDHigh:4": 5569376554126099952,
+  "questIDLow:4": -5515855351795391051,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "partialMatch:1": 1,
       "autoConsume:1": 0,
+      "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "gadomancy:ItemCreativeNode",
           "Count:3": 80085,
           "Damage:2": 3,
-          "OreDict:8": ""
+          "OreDict:8": "",
+          "id:8": "gadomancy:ItemCreativeNode"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     }
-  },
-  "rewards:9": {}
+  }
 }

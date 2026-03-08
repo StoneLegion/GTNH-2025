@@ -1,0 +1,64 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1726
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "Since Galacticraft can be buggy (losing rockets), we are giving you the option of teleporting to Phobos after getting the appropriate tech progression. \n\nNothing in life is free, so you will have to submit the fuel payment. \n\nMake sure you dress and gear up appropriately.\n\nYou will be given the option of a free ride back (TP) to the Space Center.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gtneioreplugin:blockDimensionDisplay_Ob"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Oberon teleport option",
+      "questLogic:8": "AND",
+      "repeatTime:3": 72000,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
+    }
+  },
+  "questIDHigh:4": 6913849485909577581,
+  "questIDLow:4": -9185279226852226186,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "/pspace tpx VAR_NAME 46 196 61 234",
+      "hideCommand:1": 1,
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 1,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 12,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "miscutils:RocketFuelMixC"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

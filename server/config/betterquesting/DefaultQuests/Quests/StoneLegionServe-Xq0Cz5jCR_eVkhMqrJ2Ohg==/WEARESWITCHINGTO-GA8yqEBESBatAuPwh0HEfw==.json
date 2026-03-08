@@ -1,0 +1,37 @@
+{
+  "preRequisites:9": {},
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "We are moving away from Bukkit in 2.8. This means any claims not using server utilities will not be protected. Please DO NOT go around looting other players bases claimed or not claimed even if they quit. They might come back later on and that would end up with a ban.\n\nWith us moving to Forge only server, performance oddly enough should get better, there should be less bugs, and issues. Will be able to have the server go from Java 8 all the way to Java 24 Now as well.\n\nServer Utilities has been on here since 2.7, but will be the main protection / claim system. Also anything that is claimed via Server Utilities will also be backed up so we don\u0027t have to backup 200gig worlds anymore!\n\nThe Release of 2.8 Should be around the Start of Sept 2025. We will probbly switch 2-4 weeks after the release.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "IC2:itemToolForgeHammer"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "WE ARE SWITCHING TO FORGE in 2.8!!!!",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 1733660079775041558,
+  "questIDLow:4": -5979966732993706881,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

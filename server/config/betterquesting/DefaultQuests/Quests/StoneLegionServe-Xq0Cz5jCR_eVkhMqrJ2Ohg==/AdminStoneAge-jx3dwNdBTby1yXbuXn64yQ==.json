@@ -1,5 +1,4 @@
 {
-  "questIDHigh:4": -8134101531646407236,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 8632732384827559252,
@@ -10,45 +9,47 @@
       "questIDLow:4": 13
     }
   },
-  "questIDLow:4": -5347612316366096183,
   "properties:10": {
     "betterquesting:10": {
-      "snd_complete:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "SECRET",
-      "isMain:1": 0,
-      "simultaneous:1": 0,
+      "autoClaim:1": 0,
+      "desc:8": "Congratulations you have unlocked your first Chunk Claim. Continue to progress through the questbook to unlock your next claims.",
+      "globalShare:1": 0,
       "icon:10": {
-        "id:8": "minecraft:bed",
         "Count:3": 1,
         "Damage:2": 0,
-        "OreDict:8": ""
+        "OreDict:8": "",
+        "id:8": "minecraft:bed"
       },
-      "snd_update:8": "random.levelup",
-      "repeatTime:3": 1200,
-      "globalShare:1": 0,
-      "questLogic:8": "AND",
-      "repeat_relative:1": 1,
-      "name:8": "§4Admin: Stone Age",
-      "lockedProgress:1": 0,
-      "autoClaim:1": 0,
+      "isMain:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Congratulations you have unlocked your first Chunk Claim. Continue to progress through the questbook to unlock your next claims."
+      "lockedProgress:1": 0,
+      "name:8": "§4Admin: Stone Age",
+      "questLogic:8": "AND",
+      "repeatTime:3": 1200,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "SECRET"
+    }
+  },
+  "questIDHigh:4": -8134101531646407236,
+  "questIDLow:4": -5347612316366096183,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "/ranks add VAR_NAME a1_stone",
+      "hideCommand:1": 1,
+      "ignoreDisabled:1": 1,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command",
+      "viaPlayer:1": 0
     }
   },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
-    }
-  },
-  "rewards:9": {
-    "0:10": {
-      "hideCommand:1": 1,
-      "rewardID:8": "bq_standard:command",
-      "viaPlayer:1": 0,
-      "index:3": 0,
-      "command:8": "/ranks add VAR_NAME a1_stone"
     }
   }
 }
